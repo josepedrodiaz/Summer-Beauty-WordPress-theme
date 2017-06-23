@@ -1,0 +1,2080 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: EL MISTI HOSTELS\n"
+"POT-Creation-Date: 2016-12-16 03:19-0300\n"
+"PO-Revision-Date: 2017-03-07 13:40-0300\n"
+"Last-Translator: Pedro <pedro@elmisithostels.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:13
+msgid "Epic 404 - Article Not Found"
+msgstr "Error 404 - No se encuentra el contenido"
+
+#: 404.php:19
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr ""
+
+#: 404.php:31
+msgid "This is the 404.php template."
+msgstr ""
+
+#: archive-hotel.php:99 archive.php:78 search.php:32
+#: taxonomy-custom_cat.php:57
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: archive-hotel.php:100 archive.php:79 search.php:33
+#: taxonomy-custom_cat.php:58
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: archive-hotel.php:111 archive.php:88 taxonomy-custom_cat.php:67
+msgid "Oops, Post Not Found!"
+msgstr ""
+
+#: archive-hotel.php:115 archive.php:91 taxonomy-custom_cat.php:70
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr ""
+
+#: archive-hotel.php:119 archive.php:94
+msgid "This is the error message in the archive.php template."
+msgstr ""
+
+#: archive.php:11 taxonomy-custom_cat.php:24
+msgid "Posts Categorized:"
+msgstr ""
+
+#: archive.php:16
+msgid "Posts Tagged:"
+msgstr ""
+
+#: archive.php:25
+msgid "Posts By:"
+msgstr ""
+
+#: archive.php:30
+msgid "Daily Archives:"
+msgstr ""
+
+#: archive.php:35
+msgid "Monthly Archives:"
+msgstr ""
+
+#: archive.php:40
+msgid "Yearly Archives:"
+msgstr ""
+
+#: archive.php:52 taxonomy-custom_cat.php:34
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&</span> filed under "
+"%4$s."
+msgstr ""
+
+#: archive.php:52 search.php:14
+msgid "F jS, Y"
+msgstr ""
+
+#: category.php:9 hoteis.php:21
+#: inc/boxreserva-bkp-antes-de-mudara-para-PH.php:8 inc/boxreserva.php:8
+#: inc/modal-con.motor.de.reserva.Denis.php:11 inc/modal.bkp.php:11
+#: inc/modal.php:11 inc/slide.php:75 page-contato-backup.php:16
+#: page-elmisti-tours.php:20 page-elmistihostels.php:28 page-especial.php:20
+#: page-eventos.php:20 page-galeria.php:17 page-grupos-bkp-20141211.php:19
+#: page-hotel.php:21 single-galeria.php:20 single-galeriahostel.php:37
+#: single-hotel.php:16 single-mistitravel.php:18 single-mistiweek.php:17
+#: single-roomsrates.php:44 woocommerce/single-product/modal-hotel.php:10
+#: woocommerce/single-product/product-image.php:47
+msgid "Reserve online ou por telefone"
+msgstr "Reserve en línea o por teléfono"
+
+#: comments.php:13
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:42
+#, php-format
+msgid "<span>%d</span> Comentários"
+msgstr ""
+
+#: comments.php:42
+msgid "<span>1</span> Comentário"
+msgstr ""
+
+#: comments.php:75
+#, php-format
+msgid "<span>%d</span> Trackbacks"
+msgstr ""
+
+#: comments.php:75
+msgid "<span>Um</span> Trackback"
+msgstr ""
+
+#: comments.php:96
+#, php-format
+msgid ""
+"You must be <a href=\"%s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:105
+#, php-format
+msgid ""
+"<span class=\"loggedin\">Você está logado como: <a href=\"%1$s\" title="
+"\"Logado como: %2$s\">%2$s</a>.</span> <span class=\"logout\"><a href=\"%3$s"
+"\" title=\"Encerrar Sessão\">Sair?</a></span>"
+msgstr ""
+
+#: comments.php:131
+msgid "Nome*"
+msgstr ""
+
+#: comments.php:142
+msgid "Email*"
+msgstr ""
+
+#: comments.php:153
+msgid "Assunto*"
+msgstr ""
+
+#: comments.php:166
+msgid "Comentário*"
+msgstr ""
+
+#: comments.php:178
+msgid "Enviar Comentário"
+msgstr ""
+
+#: comments.php:183
+msgid ""
+"Seu email nunca será publicado ou distribuído. Os campos com (*) são "
+"obrigatórios."
+msgstr ""
+
+#: footer.php:44
+msgid "Hostels"
+msgstr "Nuestros Hostels"
+
+#: footer.php:45
+msgid "Contact"
+msgstr "Contacto"
+
+#: footer.php:46
+msgid "Franquias"
+msgstr "Franquicias"
+
+#: footer.php:47 footer.php.old.php:50
+msgid "Termos e Condições"
+msgstr "Términos y condiciones"
+
+#: footer.php:48
+msgid "Pagamentos"
+msgstr "Métodos de Pago"
+
+#: footer.php:49
+msgid "Careers"
+msgstr "Trabaja con nosotros"
+
+#: footer.php.old.php:49 page-hotel.php:33
+msgid "Pagos"
+msgstr ""
+
+#: footer.php.old.php:51
+msgid "Guestbook"
+msgstr ""
+
+#: footer.php.old.php:52
+msgid "Trabalhe Conosco"
+msgstr ""
+
+#: footer.php.old.php:53
+msgid "Seguro Viagem"
+msgstr ""
+
+#: functions/content.php:57
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: functions/content.php:70
+msgid "Search the Site..."
+msgstr ""
+
+#: functions/content.php:71 inc/formAffix.php:31 inc/header-topo.php:164
+msgid "Search"
+msgstr "Reserve ya!"
+
+#: functions/content.php:88
+msgid ""
+"\t\t\t\t\t<span class='unapproved'>Seu comentário está aguardando aprovação "
+"dos administradores.</span>\n"
+msgstr ""
+
+#: functions/content.php:101
+#, php-format
+msgid "By %1$s on %2$s at %3$s"
+msgstr ""
+
+#: functions/content.php:105
+msgid "Editar"
+msgstr ""
+
+#: functions/content.php:106
+msgid ""
+"\\t\\t\\t\\t\\t<span class=\"unapproved\">Your trackback is awaiting "
+"moderation.</span>\\n"
+msgstr ""
+
+#: functions/content.php:122
+msgid "Assunto"
+msgstr ""
+
+#: functions/posttype.php:23
+msgctxt "post type general name"
+msgid "Banners"
+msgstr ""
+
+#: functions/posttype.php:23
+msgctxt "post type singular name"
+msgid "Banner"
+msgstr ""
+
+#: functions/posttype.php:35
+msgctxt "post type general name"
+msgid "Banners2"
+msgstr ""
+
+#: functions/posttype.php:35
+msgctxt "post type singular name"
+msgid "Banner2"
+msgstr ""
+
+#: functions/posttype.php:46
+msgctxt "post type general name"
+msgid "banners_checkout"
+msgstr ""
+
+#: functions/posttype.php:46
+msgctxt "post type singular name"
+msgid "banners_checkout"
+msgstr ""
+
+#: functions/posttype.php:72
+msgctxt "post type general name"
+msgid "Contatotels"
+msgstr ""
+
+#: functions/posttype.php:72
+msgctxt "post type singular name"
+msgid "Contatotel"
+msgstr ""
+
+#: functions/posttype.php:84
+msgctxt "post type general name"
+msgid "Contatoboxs"
+msgstr ""
+
+#: functions/posttype.php:84
+msgctxt "post type singular name"
+msgid "Contatobox"
+msgstr ""
+
+#: functions/posttype.php:95
+msgctxt "post type general name"
+msgid "Privados"
+msgstr ""
+
+#: functions/posttype.php:95
+msgctxt "post type singular name"
+msgid "Privado"
+msgstr ""
+
+#: functions/posttype.php:106
+msgctxt "post type general name"
+msgid "Especials"
+msgstr ""
+
+#: functions/posttype.php:106
+msgctxt "post type singular name"
+msgid "Especial"
+msgstr ""
+
+#: functions/posttype.php:117
+msgctxt "post type general name"
+msgid "Event Weeks"
+msgstr ""
+
+#: functions/posttype.php:117
+msgctxt "post type singular name"
+msgid "Event Week"
+msgstr ""
+
+#: functions/posttype.php:128
+msgctxt "post type general name"
+msgid "Event Travel"
+msgstr ""
+
+#: functions/posttype.php:128
+msgctxt "post type singular name"
+msgid "Event Travel"
+msgstr ""
+
+#: functions/posttype.php:140
+msgctxt "post type general name"
+msgid "Event Experiences"
+msgstr ""
+
+#: functions/posttype.php:140
+msgctxt "post type singular name"
+msgid "Event Experience"
+msgstr ""
+
+#: functions/posttype.php:151
+msgctxt "post type general name"
+msgid "Event UpComings"
+msgstr ""
+
+#: functions/posttype.php:151
+msgctxt "post type singular name"
+msgid "Event UpComing"
+msgstr ""
+
+#: functions/posttype.php:162
+msgctxt "post type general name"
+msgid "Galeria Hostels"
+msgstr ""
+
+#: functions/posttype.php:162
+msgctxt "post type singular name"
+msgid "Galeria Hostel"
+msgstr ""
+
+#: functions/posttype.php:173
+msgctxt "post type general name"
+msgid "Rooms e Rates"
+msgstr ""
+
+#: functions/posttype.php:173
+msgctxt "post type singular name"
+msgid "Room e Rate"
+msgstr ""
+
+#: functions/posttype.php:184
+msgctxt "post type general name"
+msgid "Rooms Hostels"
+msgstr ""
+
+#: functions/posttype.php:184
+msgctxt "post type singular name"
+msgid "Room Hostel"
+msgstr ""
+
+#: functions/sc/shortcodes.php:4
+msgid "PRÓXIMO PRAIA"
+msgstr "PLAYA CERCA"
+
+#: functions/sc/shortcodes.php:12
+msgid "TRANSPORTE"
+msgstr ""
+
+#: functions/sc/shortcodes.php:20
+msgid "WI-FI"
+msgstr ""
+
+#: functions/sc/shortcodes.php:28
+msgid "COFRES"
+msgstr ""
+
+#: functions/sc/shortcodes.php:35 functions/sc/shortcodes.php:56
+msgid "PISCINA"
+msgstr ""
+
+#: functions/sc/shortcodes.php:42
+msgid "A/C"
+msgstr ""
+
+#: functions/sc/shortcodes.php:49
+msgid "JANTAR"
+msgstr "CENA"
+
+#: functions/sc/shortcodes.php:63
+msgid "CAFÉ DA MANHÃ"
+msgstr "DESAYUNO"
+
+#: functions/sc/shortcodes.php:236
+msgid "Enter your Trade Account Number"
+msgstr ""
+
+#: functions/sc/shortcodes.php:307
+msgid "Arrival"
+msgstr ""
+
+#: functions/sc/shortcodes.php:308
+msgid "Departure"
+msgstr ""
+
+#: functions/sc/shortcodes.php:309
+msgid "Guests"
+msgstr ""
+
+#: functions/sc/shortcodes.php:310
+msgid "Room Type"
+msgstr ""
+
+#: functions/sc/shortcodes.php:430
+msgid "Voltar."
+msgstr ""
+
+#: hoteis.php:29 page-galeria.php:25 page-hotel.php:29 single-galeria.php:28
+#: single-galeriahostel.php:46 single-hotel.php:25 single-roomsrates.php:53
+#: woocommerce/single-product/product-image.php:56
+msgid "Bem-Vindo"
+msgstr "Bienvenido"
+
+#: hoteis.php:30 page-hotel.php:30
+msgid "Galeria"
+msgstr "Galería"
+
+#: hoteis.php:31 page-galeria.php:27 page-hotel.php:31 single-galeria.php:30
+msgid "Travel Tips"
+msgstr ""
+
+#: hoteis.php:32 page-galeria.php:28 page-hotel.php:32 single-galeria.php:31
+#: single-galeriahostel.php:49 single-hotel.php:28 single-roomsrates.php:56
+#: woocommerce/single-product/product-image.php:59
+msgid "Quartos"
+msgstr "Cuartos"
+
+#: inc/boxreserva-bkp-antes-de-mudara-para-PH.php:16
+#: inc/boxreserva-hotel-single.php:51 inc/boxreserva-hotel.php:48
+#: inc/boxreserva.php:20 inc/modal-con.motor.de.reserva.Denis.php:19
+#: inc/modal.bkp.php:19 inc/modal.php:47
+#: woocommerce/single-product/boxreserva-hotel.php:48
+#: woocommerce/single-product/modal-hotel.php:44
+msgid "Lugar de Destino"
+msgstr "Lugar de Destino"
+
+#: inc/boxreserva-bkp-antes-de-mudara-para-PH.php:25
+#: inc/boxreserva-hotel-single.old.php:28 inc/boxreserva-hotel.old.php:28
+#: inc/modal-con.motor.de.reserva.Denis.php:28 inc/modal.bkp.php:28
+#: woocommerce/single-product/boxreserva-hotel.motor-reserva-de-Denis.php:26
+msgid "Adultos"
+msgstr ""
+
+#: inc/boxreserva-bkp-antes-de-mudara-para-PH.php:45
+#: inc/modal-con.motor.de.reserva.Denis.php:46 inc/modal.bkp.php:46
+msgid "Data de Partida"
+msgstr "Data de Partida"
+
+#: inc/boxreserva-bkp-antes-de-mudara-para-PH.php:53
+#: inc/boxreserva-bkp-antes-de-mudara-para-PH.php:150
+#: inc/boxreserva-bkp-antes-de-mudara-para-PH.php:241
+#: inc/boxreserva-hotel-single.old.php:51 inc/boxreserva-hotel-single.php:87
+#: inc/boxreserva-hotel.old.php:51 inc/boxreserva-hotel.php:79
+#: inc/boxreserva.php:51 inc/modal-con.motor.de.reserva.Denis.php:54
+#: inc/modal.bkp.php:54 inc/modal.php:84
+#: woocommerce/single-product/boxreserva-hotel.motor-reserva-de-Denis.php:49
+#: woocommerce/single-product/boxreserva-hotel.php:85
+#: woocommerce/single-product/modal-hotel.php:81
+msgid "RESERVAR"
+msgstr "RESERVE AHORA"
+
+#: inc/boxreserva-bkp-antes-de-mudara-para-PH.php:70
+#: inc/boxreserva-hotel-single.old.php:66 inc/boxreserva-hotel-single.php:100
+#: inc/boxreserva.php:64 inc/modal.bkp.php:70 inc/modal.bkp.php:79
+#: woocommerce/single-product/boxreserva-hotel.motor-reserva-de-Denis.php:60
+#: woocommerce/single-product/boxreserva-hotel.php:93
+#: woocommerce/single-product/modal-hotel.php:89
+msgid "Ligação do Brasil"
+msgstr "llamando desde brasil"
+
+#: inc/boxreserva-bkp-antes-de-mudara-para-PH.php:79
+#: inc/boxreserva-hotel-single.old.php:75 inc/boxreserva-hotel.old.php:74
+#: inc/modal-con.motor.de.reserva.Denis.php:79 inc/modal.php:105
+#: woocommerce/single-product/boxreserva-hotel.php:102
+msgid "WhatsApp"
+msgstr ""
+
+#: inc/boxreserva-bkp-antes-de-mudara-para-PH.php:82
+#: inc/boxreserva-hotel-single.old.php:78 inc/boxreserva-hotel-single.php:112
+#: inc/boxreserva-hotel.old.php:77 inc/boxreserva-hotel.php:104
+#: inc/boxreserva.php:76 woocommerce/single-product/boxreserva-hotel.php:105
+msgid "Contacto E-mail"
+msgstr ""
+
+#: inc/boxreserva-bkp-antes-de-mudara-para-PH.php:93
+#: inc/boxreserva-hotel-single.old.php:87 inc/boxreserva-hotel-single.php:121
+#: inc/boxreserva-hotel.old.php:85 inc/boxreserva-hotel.php:112
+#: inc/boxreserva.php:87 inc/modal-con.motor.de.reserva.Denis.php:91
+#: inc/modal.bkp.php:91 inc/modal.php:117
+#: woocommerce/single-product/boxreserva-hotel.motor-reserva-de-Denis.php:81
+#: woocommerce/single-product/boxreserva-hotel.php:115
+#: woocommerce/single-product/modal-hotel.php:108
+msgid "Mais números / Números Internacionais"
+msgstr "Más números / Números Internacionales"
+
+#: inc/boxreserva-bkp-antes-de-mudara-para-PH.php:95
+#: inc/boxreserva-hotel-single.old.php:88 inc/boxreserva-hotel-single.php:122
+#: inc/boxreserva-hotel.old.php:86 inc/boxreserva-hotel.php:113
+#: inc/boxreserva.php:89 inc/modal-con.motor.de.reserva.Denis.php:92
+#: inc/modal.bkp.php:92 inc/modal.php:118
+#: woocommerce/single-product/boxreserva-hotel.motor-reserva-de-Denis.php:82
+#: woocommerce/single-product/boxreserva-hotel.php:116
+#: woocommerce/single-product/modal-hotel.php:109
+msgid "De segunda à sexta de 10 às 20 hs."
+msgstr "De lunes a viernes de 10 am a 20 pm."
+
+#: inc/boxreserva-bkp-antes-de-mudara-para-PH.php:96
+#: inc/boxreserva-hotel-single.old.php:89 inc/boxreserva-hotel-single.php:123
+#: inc/boxreserva-hotel.old.php:87 inc/boxreserva-hotel.php:114
+#: inc/boxreserva.php:90 inc/modal-con.motor.de.reserva.Denis.php:93
+#: inc/modal.bkp.php:93 inc/modal.php:119
+#: woocommerce/single-product/boxreserva-hotel.motor-reserva-de-Denis.php:83
+#: woocommerce/single-product/boxreserva-hotel.php:117
+#: woocommerce/single-product/modal-hotel.php:110
+msgid "Sábados e Domingos de 10 às 18 hs."
+msgstr "Sábados y domingos de 10 am a 18 pm."
+
+#: inc/boxreserva-bkp-antes-de-mudara-para-PH.php:121
+#: inc/boxreserva-bkp-antes-de-mudara-para-PH.php:219
+msgid "wait..."
+msgstr "espere..."
+
+#: inc/boxreserva-bkp-antes-de-mudara-para-PH.php:315
+msgid " sending... "
+msgstr "enviando..."
+
+#: inc/boxreserva-hotel-single.old.php:16 inc/boxreserva-hotel-single.php:16
+#: inc/boxreserva-hotel.old.php:16 inc/boxreserva-hotel.php:16
+#: woocommerce/single-product/boxreserva-hotel.motor-reserva-de-Denis.php:14
+#: woocommerce/single-product/boxreserva-hotel.php:14
+msgid "Reserve no"
+msgstr ""
+
+#: inc/boxreserva-hotel-single.old.php:21 inc/boxreserva-hotel-single.php:71
+#: inc/boxreserva-hotel.old.php:21 inc/boxreserva-hotel.php:63
+#: inc/boxreserva.php:35 inc/formAffix.php:27 inc/header-topo.php:153
+#: inc/modal.php:68
+#: woocommerce/single-product/boxreserva-hotel.motor-reserva-de-Denis.php:19
+#: woocommerce/single-product/boxreserva-hotel.php:69
+#: woocommerce/single-product/modal-hotel.php:65
+msgid "Data de Chegada"
+msgstr "Llegada"
+
+#: inc/boxreserva-hotel-single.old.php:45 inc/boxreserva-hotel.old.php:45
+#: woocommerce/single-product/boxreserva-hotel.motor-reserva-de-Denis.php:43
+msgid "Data de Saída"
+msgstr ""
+
+#: inc/boxreserva-hotel-single.php:35 inc/boxreserva-hotel.php:32
+#: inc/formAffix.php:4 inc/header-topo.php:127 inc/modal.php:31
+#: woocommerce/single-product/boxreserva-hotel.php:33
+#: woocommerce/single-product/modal-hotel.php:29
+msgid "LANG"
+msgstr "es"
+
+#: inc/boxreserva-hotel-single.php:36 inc/boxreserva-hotel.php:33
+#: inc/formAffix.php:4 inc/header-topo.php:127 inc/modal.php:32
+#: woocommerce/single-product/boxreserva-hotel.php:34
+#: woocommerce/single-product/modal-hotel.php:30
+msgid "Complete o form"
+msgstr "Debes completar todos los campos del formulario"
+
+#: inc/boxreserva-hotel-single.php:37 inc/boxreserva-hotel.php:34
+#: inc/formAffix.php:4 inc/header-topo.php:127 inc/modal.php:33
+#: woocommerce/single-product/boxreserva-hotel.php:35
+#: woocommerce/single-product/modal-hotel.php:31
+msgid "Data errada"
+msgstr "Debes seleccionar una fecha futura"
+
+#: inc/boxreserva-hotel-single.php:76 inc/boxreserva-hotel.php:68
+#: inc/boxreserva.php:40 inc/modal.php:73
+#: woocommerce/single-product/boxreserva-hotel.php:74
+#: woocommerce/single-product/modal-hotel.php:70
+msgid "Noches"
+msgstr "Noches"
+
+#: inc/boxreserva-hotel.old.php:65 inc/boxreserva-hotel.php:92
+#: inc/modal-con.motor.de.reserva.Denis.php:70 inc/modal.php:96
+msgid "Ligação Internacional"
+msgstr ""
+
+#: inc/footer.php:109
+msgid "PAGOS"
+msgstr ""
+
+#: inc/footer.php:110
+msgid "TERMOS E CONDIÇÕES"
+msgstr "TERMOS E CONDIÇÕES"
+
+#: inc/footer.php:111
+msgid "GUESTBOOK"
+msgstr ""
+
+#: inc/footer.php:112
+msgid "TRABALHE CONOSCO"
+msgstr "TRABALHE CONOSCO"
+
+#: inc/footer.php:113
+msgid "SEGURO DE VIAGEM"
+msgstr "SEGUROS DE VIAJE"
+
+#: inc/formAffix.php:29 inc/header-topo.php:159
+msgid "Saída"
+msgstr "Partida"
+
+#: inc/formAffix.php:39 inc/header-topo.php:171
+msgid "_2015-cero800"
+msgstr "<!-- / <span class=\"cero800\"> +55.21. 2246-1070</span>  -->"
+
+#: inc/formZoho.php:12 inc/formZoho.php:63
+msgid "Primeiro Nome"
+msgstr "Nombre"
+
+#: inc/formZoho.php:13 inc/formZoho.php:63
+msgid "Sobrenome"
+msgstr "Apellido"
+
+#: inc/formZoho.php:14
+msgid "Telefone"
+msgstr "Teléfono"
+
+#: inc/formZoho.php:15
+msgid "Email"
+msgstr "Email"
+
+#: inc/formZoho.php:16
+msgid "Pais"
+msgstr "País"
+
+#: inc/formZoho.php:35
+msgid "Mensagem"
+msgstr "Mensaje"
+
+#: inc/formZoho.php:37
+msgid "Enviar"
+msgstr "Enviar"
+
+#: inc/formZoho.php:63
+msgid "E-mail"
+msgstr ""
+
+#: inc/formZoho.php:63
+msgid "Descrição"
+msgstr "Mensaje"
+
+#: inc/formZoho.php:63
+msgid "País"
+msgstr ""
+
+#: inc/formZoho.php:72
+msgid " não pode ficar em branco"
+msgstr " no pude estar vacío"
+
+#: inc/formZoho.php:77
+msgid " não pode ser vazio"
+msgstr " no pude estar vacío"
+
+#: inc/header-topo.php:168
+msgid "RESERVATION CENTER"
+msgstr "CENTRAL DE RESERVAS"
+
+#: inc/modal-con.motor.de.reserva.Denis.php:82 inc/modal.bkp.php:82
+#: inc/modal.php:108
+#: woocommerce/single-product/boxreserva-hotel.motor-reserva-de-Denis.php:72
+#: woocommerce/single-product/modal-hotel.php:101
+msgid "CONTACTO E-MAIL"
+msgstr "CONTACTO E-MAIL"
+
+#: index.php:145
+msgid "DICAS DE VIAGEM"
+msgstr "PARA TU VIAJE"
+
+#: index.php:147
+msgid "GUIAS DAS CIDADES"
+msgstr "GUIAS DE LAS CIUDADES"
+
+#: index.php:148
+msgid "MAPAS"
+msgstr "MAPAS"
+
+#: index.php:149
+msgid "SEMANA NO RIO"
+msgstr "SEMANA EN RIO"
+
+#: index.php:154
+msgid "SOMOS SOCIAIS"
+msgstr "SOMOS SOCIALES"
+
+#: index.php:156
+msgid "GALERIA DE <br>MIDIAS"
+msgstr "GALERIA DE <br>MEDIOS"
+
+#: index.php:157
+msgid "ATIVIDADE <br>SOCIAL"
+msgstr "ACTIVIDAD <br>SOCIAL"
+
+#: index.php:158
+msgid "EL MISTI <br>TOURS"
+msgstr "EL MISTI <br>TOURS"
+
+#: index.php:163
+msgid "YOUR MISTI DAY"
+msgstr "YOUR MISTI DAY"
+
+#: index.php:165
+msgid "NEXT DESTINATION"
+msgstr "NEXT DESTINATION"
+
+#: index.php:166
+msgid "El MISTI TRAVEL"
+msgstr ""
+
+#: index.php:167
+msgid "EL MISTI <br> WEEK"
+msgstr ""
+
+#: page-check_availability.php:205 page-check_availability.php:372
+msgid "Prezado cliente."
+msgstr ""
+
+#: page-check_availability.php:207
+msgid "Existe uma pré reserva no carrinho."
+msgstr ""
+
+#: page-check_availability.php:209
+msgid "Por favor confirme ou cancele antes de realizar nova reserva."
+msgstr ""
+
+#: page-check_availability.php:375
+msgid "Por favor, tente novamente."
+msgstr ""
+
+#: page-check_availability.php:391
+msgid "Desculpe, Ocorreu um erro inesperado,"
+msgstr ""
+
+#: page-check_availability.php:392
+msgid ""
+"mas você pode fazer sua reserva diretamente com nossa Central de Reservas."
+msgstr ""
+
+#: page-check_availability.php:396 page-check_availability.php:592
+msgid "Telefones:"
+msgstr ""
+
+#: page-check_availability.php:397 page-check_availability.php:593
+msgid "0800 020 2661  Gratuito no Brasil"
+msgstr ""
+
+#: page-check_availability.php:398 page-check_availability.php:594
+msgid "+55 (21) 2547 2661"
+msgstr ""
+
+#: page-check_availability.php:399 page-check_availability.php:595
+msgid "+55 (21) 2246 1070"
+msgstr ""
+
+#: page-check_availability.php:400 page-check_availability.php:596
+msgid "Email: info@elmistihostels.com"
+msgstr ""
+
+#: page-check_availability.php:401 page-check_availability.php:597
+msgid "WhatsApp: +55 21 9848 55 138"
+msgstr ""
+
+#: page-check_availability.php:403 page-check_availability.php:599
+msgid "Chat online: http://elmistibookings.com/lz/chat.php"
+msgstr "Chat online: http://elmistibookings.com/lz/chat.php"
+
+#: page-check_availability.php:408 page-check_availability.php:604
+msgid "Por favor, Tente outras datas ou outros locais."
+msgstr ""
+
+#: page-check_availability.php:507 woocommerce/cart/cart.php:273
+#: woocommerce/checkout/form-checkout.php:246
+#: woocommerce/checkout/thankyou.php:291
+msgid "FAÇA SUA RESERVA"
+msgstr ""
+
+#: page-check_availability.php:561
+msgid "QUARTO"
+msgstr ""
+
+#: page-check_availability.php:562
+msgid "PREÇO"
+msgstr ""
+
+#: page-check_availability.php:581
+msgid "Prezado Cliente."
+msgstr ""
+
+#: page-check_availability.php:582
+msgid "Não há lugares disponíveis para a data selecionada."
+msgstr ""
+
+#: page-check_availability.php:583
+msgid "É possível que o motor de buscas não inclua parte da disponibilidade,"
+msgstr ""
+
+#: page-check_availability.php:584
+msgid ""
+"por este motivo sugerimos que você tente reservar para o período selecionado"
+msgstr ""
+
+#: page-check_availability.php:585
+msgid "diretamente com nossa Central de Reservas."
+msgstr ""
+
+#: page-check_availability.php:660 page-check_availability.php:662
+#: woocommerce/cart/cart.php:472 woocommerce/checkout/form-checkout.php:379
+msgid "RESERVAR AGORA"
+msgstr ""
+
+#: page-check_availability_processa.php:24
+msgid "HOTEL:"
+msgstr ""
+
+#: page-check_availability_processa.php:28
+msgid "Período:"
+msgstr ""
+
+#: page-check_availability_processa.php:32
+msgid "Data atual:"
+msgstr ""
+
+#: page-el-misti-travel.php:115 page-el-misti-week.php:115
+msgid "Leia Mais"
+msgstr "Leer más"
+
+#: page-especial.php:90
+msgid "SAIBA MAIS"
+msgstr "SEPA MÁS"
+
+#: page-grupos.php:25 page-grupos.php.bkp.php:25
+msgid "form-nombre"
+msgstr "Nombre"
+
+#: page-grupos.php:28 page-grupos.php.bkp.php:28
+msgid "form-apellido"
+msgstr "Apellido"
+
+#: page-grupos.php:34 page-grupos.php.bkp.php:34
+msgid "form-telefono"
+msgstr "Teléfono"
+
+#: page-grupos.php:37 page-grupos.php.bkp.php:37
+msgid "form-nacionalidad"
+msgstr "Nacionalidad"
+
+#: page-grupos.php:43 page-grupos.php.bkp.php:43
+msgid "form-destino"
+msgstr "Destino"
+
+#: page-grupos.php:50 page-grupos.php.bkp.php:53
+msgid "form-llegada"
+msgstr "Fecha de llegada"
+
+#: page-grupos.php:53 page-grupos.php.bkp.php:56
+msgid "form-partida"
+msgstr "Fecha de partida"
+
+#: page-grupos.php:57 page-grupos.php.bkp.php:60
+msgid "form-tipogrupo"
+msgstr "Tipo de grupo"
+
+#: page-grupos.php:58 page-grupos.php.bkp.php:61
+msgid "form-tipo1"
+msgstr "Universitarios"
+
+#: page-grupos.php:59 page-grupos.php.bkp.php:62
+msgid "form-tipo2"
+msgstr "Solteros/amigos/fiesta"
+
+#: page-grupos.php:60 page-grupos.php.bkp.php:63
+msgid "form-tipo3"
+msgstr "Negocios"
+
+#: page-grupos.php:61 page-grupos.php.bkp.php:64
+msgid "form-tipo4"
+msgstr "Excursiones"
+
+#: page-grupos.php:62 page-grupos.php.bkp.php:65
+msgid "form-tipo5"
+msgstr "Deportivos"
+
+#: page-grupos.php:63 page-grupos.php.bkp.php:66
+msgid "form-tipo6"
+msgstr "Estudiantes (+18)"
+
+#: page-grupos.php:64 page-grupos.php.bkp.php:67
+msgid "form-tipo7"
+msgstr "Estudiantes (-18)"
+
+#: page-grupos.php:65 page-grupos.php.bkp.php:68
+msgid "form-tipo8"
+msgstr "Otros Grupos"
+
+#: page-grupos.php:69 page-grupos.php.bkp.php:72
+msgid "form-tamanio"
+msgstr "Tamaño del grupo"
+
+#: page-grupos.php:74 page-grupos.php.bkp.php:77
+msgid "form-comentarios"
+msgstr "Comentarios"
+
+#: page-grupos.php:77 page-grupos.php.bkp.php:80
+msgid "form-enviar"
+msgstr "Enviar"
+
+#: page-index.php:109
+msgid "BEM-VINDO AO EL MISTI HOSTELS"
+msgstr "BIENVENIDO A <br class=\"visible-xs-inline\"> EL MISTI HOSTELS"
+
+#: page-index.php:206
+msgid "NOSSOS HOSTELS"
+msgstr "NUESTROS HOSTELS"
+
+#: page-privados.php:112
+msgid "Rooms from"
+msgstr ""
+
+#: page-promos.php:38
+msgid ""
+"Nossas <br /> promoções especiais <br /> para viajantes<br />  do mundo <br /"
+">inteiro."
+msgstr ""
+"Nuestras <br /> promociones especiales <br /> para viajantes<br />  de todo "
+"<br />el mundo."
+
+#: search.php:4
+msgid "Buscando por:"
+msgstr ""
+
+#: search.php:14
+#, php-format
+msgid ""
+"Postado <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time>, por "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">e</span> arquivado em "
+"%4$s."
+msgstr ""
+
+#: search.php:20
+msgid "Read more &raquo;"
+msgstr ""
+
+#: search.php:42
+msgid "Desculpe, Nenhum resultado encontrado."
+msgstr ""
+
+#: search.php:45
+msgid "Tente pesquisar novamente."
+msgstr "Intenta buscar de nuevo."
+
+#: search.php:48
+msgid "This is the error message in the search.php template."
+msgstr ""
+
+#: single-hotel.php:26 single-roomsrates.php:54
+#: woocommerce/single-product/product-image.php:57
+msgid "Galeria de Fotos"
+msgstr "Galería de fotos"
+
+#: single-hotel.php:27 single-roomsrates.php:55
+#: woocommerce/single-product/product-image.php:58
+msgid "Dicas de Viagem"
+msgstr "Consejos viaje"
+
+#: taxonomy-custom_cat.php:34
+msgid "F js, Y"
+msgstr ""
+
+#: taxonomy-custom_cat.php:40
+msgid "Read More &raquo;"
+msgstr ""
+
+#: taxonomy-custom_cat.php:73
+msgid "This is the error message in the taxonomy-custom_cat.php template."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:16
+msgid "Você ainda não tem reservas."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:16
+#, php-format
+msgid "Shipping #%d"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:18
+msgid "Shipping and Handling"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:55
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:59
+msgid ""
+"Please continue to the checkout and enter your full address to see if there "
+"are any available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:63
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:72 woocommerce/cart/cart-shipping.php:78
+msgid ""
+"There doesn&lsquo;t seem to be any available shipping methods. Please double "
+"check your address, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:93
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:16
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:21
+#: woocommerce/checkout/review-order.php:28
+msgid "Cart Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:75
+#: woocommerce/checkout/review-order.php:82
+msgid "Order Total"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:87
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:90
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart.php:282
+msgid "PRECISA DE AJUDA"
+msgstr ""
+
+#: woocommerce/cart/cart.php:286
+msgid "Ligando do Brasil"
+msgstr ""
+
+#: woocommerce/cart/cart.php:291
+msgid "Ligação Grátis"
+msgstr ""
+
+#: woocommerce/cart/cart.php:297
+msgid "Outros números / Números Internacionais"
+msgstr ""
+
+#: woocommerce/cart/cart.php:298
+msgid "De segunda à sexta de 10 às 20hs."
+msgstr ""
+
+#: woocommerce/cart/cart.php:299
+msgid "Sábados e Domingos de 10 às 18hs"
+msgstr ""
+
+#: woocommerce/cart/cart.php:335 woocommerce/checkout/form-pay.php:19
+#: woocommerce/checkout/review-order.php:21
+#: woocommerce/emails/admin-new-order.php:22
+#: woocommerce/emails/customer-completed-order.php:26
+#: woocommerce/emails/customer-invoice.php:27
+#: woocommerce/emails/customer-note.php:27
+#: woocommerce/emails/customer-processing-order.php:24
+#: woocommerce/order/order-details.php:22
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:336 woocommerce/emails/admin-new-order.php:24
+#: woocommerce/emails/customer-completed-order.php:28
+#: woocommerce/emails/customer-invoice.php:29
+#: woocommerce/emails/customer-note.php:29
+#: woocommerce/emails/customer-processing-order.php:26
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:337 woocommerce/emails/admin-new-order.php:23
+#: woocommerce/emails/customer-completed-order.php:27
+#: woocommerce/emails/customer-invoice.php:28
+#: woocommerce/emails/customer-note.php:28
+#: woocommerce/emails/customer-processing-order.php:25
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:338 woocommerce/checkout/review-order.php:22
+#: woocommerce/myaccount/my-orders.php:35
+#: woocommerce/order/order-details.php:23
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:374
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:401
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:465
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:465 woocommerce/checkout/form-coupon.php:26
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:465 woocommerce/checkout/form-coupon.php:30
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:38
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:51
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:59
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:64
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:65
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:22
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:28
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:45
+#: woocommerce/cart/shipping-calculator.php:51
+#: woocommerce/cart/shipping-calculator.php:63
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:52
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:72
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:80
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:85
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:16
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:20
+msgid "Return To Cart"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:15
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:19
+msgid "Billing Details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:38
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:49
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:262
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:288
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:297
+msgid "COMO GOSTARIA <br> DE PAGAR?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:335
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:337
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:372
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:372
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:388
+#, php-format
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; "
+"conditions</a>"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:18
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:19
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:14
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:15
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:22
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:20
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:21
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:54
+msgid "Payment"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:79
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:89
+msgid "Pay for order"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:29
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:55
+#: woocommerce/single-product/tabs/additional-information.php:17
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:323
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:327
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:329
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:333
+#: woocommerce/myaccount/my-orders.php:71
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:335
+msgid "My Account"
+msgstr "Mi Cuenta"
+
+#: woocommerce/checkout/thankyou.php:361
+msgid "Thank you!"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:362
+msgid "Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:366
+#: woocommerce/emails/customer-completed-order.php:21
+#: woocommerce/emails/customer-invoice.php:22
+#: woocommerce/emails/customer-note.php:22
+#: woocommerce/emails/customer-processing-order.php:19
+msgid "Order:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:370
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:374
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:379
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:404
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/content-product.php:130
+msgid "Descontos para reservas antecipadas!"
+msgstr "Descuentos para reservas anticipadas!"
+
+#: woocommerce/content-product.php:133
+msgid "Na sua chegada ao Rio não se preocupe com nada"
+msgstr "Despreocupate en tu llegada a Rio"
+
+#: woocommerce/content-product.php:139
+msgid "urlBannerHostelList"
+msgstr "/wp-content/themes/El-Misti/img/Banner-Final-Grilla-ES"
+
+#: woocommerce/emails/admin-new-order.php:13
+#: woocommerce/emails/plain/admin-new-order.php:13
+#, php-format
+msgid "You have received an order from %s. Their order is as follows:"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:17
+#, php-format
+msgid "Order: %s"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:50
+#: woocommerce/emails/customer-completed-order.php:54
+#: woocommerce/emails/customer-note.php:55
+#: woocommerce/emails/customer-processing-order.php:52
+#: woocommerce/emails/plain/admin-new-order.php:39
+#: woocommerce/order/order-details.php:122
+msgid "Customer details"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:53
+#: woocommerce/emails/customer-completed-order.php:57
+#: woocommerce/emails/customer-note.php:58
+#: woocommerce/emails/customer-processing-order.php:55
+#: woocommerce/emails/plain/admin-new-order.php:42
+#: woocommerce/emails/plain/customer-completed-order.php:41
+#: woocommerce/emails/plain/customer-note.php:49
+#: woocommerce/emails/plain/customer-processing-order.php:41
+#: woocommerce/order/order-details.php:126
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:56
+#: woocommerce/emails/customer-completed-order.php:60
+#: woocommerce/emails/customer-note.php:61
+#: woocommerce/emails/customer-processing-order.php:58
+#: woocommerce/emails/plain/admin-new-order.php:45
+#: woocommerce/emails/plain/customer-completed-order.php:44
+#: woocommerce/emails/plain/customer-note.php:52
+#: woocommerce/emails/plain/customer-processing-order.php:44
+msgid "Tel:"
+msgstr ""
+
+#: woocommerce/emails/customer-completed-order.php:17
+#: woocommerce/emails/plain/customer-completed-order.php:13
+#, php-format
+msgid ""
+"Hi there. Your recent order on %s has been completed. Your order details are "
+"shown below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/customer-invoice.php:16
+#: woocommerce/emails/plain/customer-invoice.php:14
+#, php-format
+msgid ""
+"An order has been created for you on %s. To pay for this order please use "
+"the following link: %s"
+msgstr ""
+
+#: woocommerce/emails/customer-invoice.php:16
+msgid "pay"
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:14
+#: woocommerce/emails/plain/customer-new-account.php:13
+#, php-format
+msgid ""
+"Thanks for creating an account on %s. Your username is <strong>%s</strong>."
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:18
+#, php-format
+msgid "Your password has been automatically generated: <strong>%s</strong>"
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:22
+#: woocommerce/emails/plain/customer-new-account.php:18
+#, php-format
+msgid ""
+"You can access your account area to view your orders and change your "
+"password here: %s."
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:14
+#: woocommerce/emails/plain/customer-note.php:13
+msgid "Hello, a note has just been added to your order:"
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:18
+#: woocommerce/emails/plain/customer-note.php:21
+msgid "For your reference, your order details are shown below."
+msgstr ""
+
+#: woocommerce/emails/customer-processing-order.php:15
+#: woocommerce/emails/plain/customer-processing-order.php:13
+msgid ""
+"Your order has been received and is now being processed. Your order details "
+"are shown below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:14
+#: woocommerce/emails/plain/customer-reset-password.php:13
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:15
+#: woocommerce/emails/plain/customer-reset-password.php:15
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:16
+#: woocommerce/emails/plain/customer-reset-password.php:16
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:17
+#: woocommerce/emails/plain/customer-reset-password.php:17
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:20
+msgid "Click here to reset your password"
+msgstr ""
+
+#: woocommerce/emails/email-addresses.php:18
+#: woocommerce/emails/plain/email-addresses.php:12
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/emails/email-addresses.php:28
+#: woocommerce/emails/plain/email-addresses.php:17
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/emails/email-order-items.php:28
+msgid "Product Image"
+msgstr ""
+
+#: woocommerce/emails/email-order-items.php:64
+#: woocommerce/emails/plain/email-order-items.php:46
+#, php-format
+msgid "Download %d"
+msgstr ""
+
+#: woocommerce/emails/email-order-items.php:66
+#: woocommerce/emails/plain/email-order-items.php:48
+msgid "Download"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:19
+#: woocommerce/emails/plain/customer-completed-order.php:19
+#: woocommerce/emails/plain/customer-invoice.php:20
+#: woocommerce/emails/plain/customer-note.php:27
+#: woocommerce/emails/plain/customer-processing-order.php:19
+#, php-format
+msgid "Order number: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:20
+#, php-format
+msgid "Order link: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:21
+#: woocommerce/emails/plain/customer-completed-order.php:20
+#: woocommerce/emails/plain/customer-invoice.php:21
+#: woocommerce/emails/plain/customer-note.php:28
+#: woocommerce/emails/plain/customer-processing-order.php:20
+#, php-format
+msgid "Order date: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:21
+msgid "jS F Y"
+msgstr ""
+
+#: woocommerce/emails/plain/customer-completed-order.php:38
+#: woocommerce/emails/plain/customer-note.php:46
+#: woocommerce/emails/plain/customer-processing-order.php:38
+msgid "Your details"
+msgstr ""
+
+#: woocommerce/emails/plain/customer-new-account.php:16
+#, php-format
+msgid "Your password is <strong>%s</strong>."
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-items.php:32
+#, php-format
+msgid "Quantity: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-items.php:35
+#, php-format
+msgid "Cost: %s"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:63
+msgid "Products tagged &ldquo;"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:91 woocommerce/global/breadcrumb.php:189
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:147
+msgid "Error 404"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:193
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:198
+msgid "Author:"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:203
+msgid "Page"
+msgstr ""
+
+#: woocommerce/global/form-login.php:22
+#: woocommerce/myaccount/form-lost-password.php:24
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/global/form-login.php:26
+#: woocommerce/myaccount/form-login.php:36
+#: woocommerce/myaccount/form-login.php:86
+msgid "Password"
+msgstr ""
+
+#: woocommerce/global/form-login.php:35
+#: woocommerce/myaccount/form-login.php:25
+#: woocommerce/myaccount/form-login.php:44
+msgid "Login"
+msgstr ""
+
+#: woocommerce/global/form-login.php:38
+#: woocommerce/myaccount/form-login.php:46
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/global/form-login.php:42
+#: woocommerce/myaccount/form-login.php:50
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:12
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:14
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: woocommerce/loop/orderby.php:21
+msgid "Default sorting"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:22
+msgid "Sort by popularity"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:23
+msgid "Sort by average rating"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:24
+msgid "Sort by newness"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:25
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:26
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:30
+#, php-format
+msgid "Showing all %d results"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:32
+#, php-format
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing %1$d–%2$d of %3$d results"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:16
+#: woocommerce/single-product/sale-flash.php:16
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:40
+msgid ""
+"Sorry, it seems that there are no payment methods which support adding a new "
+"payment method. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:48
+msgid "Add Payment Method"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:20
+#: woocommerce/myaccount/form-lost-password.php:31
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:24
+#: woocommerce/myaccount/form-lost-password.php:35
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:29
+#: woocommerce/myaccount/form-lost-password.php:46
+msgid "Save"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:20
+msgid "First name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:24
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:28
+#: woocommerce/myaccount/form-login.php:79
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:32
+msgid "Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:36
+msgid "Confirm new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:41
+msgid "Save changes"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:14
+#: woocommerce/myaccount/my-address.php:19
+#: woocommerce/myaccount/my-address.php:25
+#: woocommerce/order/order-details.php:145
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:14
+#: woocommerce/myaccount/my-address.php:20
+#: woocommerce/order/order-details.php:159
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:38
+msgid "Save Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:32
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:63
+#: woocommerce/myaccount/form-login.php:100
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:72
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:93
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:22
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:28
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:46
+msgid "Reset Password"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:20
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:25
+#, php-format
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and <a href=\"%s\">edit your password and "
+"account details</a>."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:23
+msgid "My Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:45
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:64
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:18
+msgid "Available downloads"
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:27
+#, php-format
+msgid "%s download remaining"
+msgid_plural "%s downloads remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/my-orders.php:26
+msgid "Recent Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:32
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:33
+msgid "Date"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:34
+msgid "Status"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:62
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/my-orders.php:78
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:84
+msgid "View"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:12
+#, php-format
+msgid ""
+"Order <mark class=\"order-number\">%s</mark> was placed on <mark class="
+"\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</"
+"mark>."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:16 woocommerce/order/tracking.php:31
+msgid "Order Updates"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:22 woocommerce/order/tracking.php:37
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:17
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"return. This was given to you on your receipt and in the confirmation email "
+"you should have received."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:19
+msgid "Order ID"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:19
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:20
+msgid "Billing Email"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:20
+msgid "Email you used during checkout."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:23
+msgid "Track"
+msgstr ""
+
+#: woocommerce/order/order-details.php:18
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:68
+#, php-format
+msgid "Download file%s"
+msgstr ""
+
+#: woocommerce/order/order-details.php:127
+msgid "Telephone:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:149
+#: woocommerce/order/order-details.php:163
+#: woocommerce/single-product/meta.php:23
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/tracking.php:18
+#, php-format
+msgid "Order %s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/order/tracking.php:18
+msgid "ago"
+msgstr ""
+
+#: woocommerce/order/tracking.php:20
+msgid "and was completed"
+msgstr ""
+
+#: woocommerce/order/tracking.php:20
+msgid " ago"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:37
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:113
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:25
+msgid "Choose an option"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:73
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:103
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/boxreserva-hotel.motor-reserva-de-Denis.php:69
+msgid "telefone"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:23
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:27
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:29
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/modal-hotel.php:98
+msgid "Chamadas Grátis"
+msgstr "llamadas gratis"
+
+#: woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:35
+msgid "Dimensions"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:23
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:25
+#: woocommerce/single-product/review.php:27
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:28
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/related.php:36
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/review.php:26
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:48
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:39
+msgid "You may also like&hellip;"
+msgstr ""
+
+#~ msgid "form-pais"
+#~ msgstr "País"
+
+#~ msgid "form-mensaje"
+#~ msgstr "Mensaje"
+
+#~ msgid "Deixe sua mensagem"
+#~ msgstr "Dejanos tu mensaje"
+
+#~ msgid "Minha Conta"
+#~ msgstr "Mi Cuenta"
+
+#~ msgid "Login / Registrar"
+#~ msgstr "Login / Register"
+
+#~ msgid "Minhas Reservas"
+#~ msgstr "Mis Reservas"
+
+#~ msgid "Reserve rapidamente através do"
+#~ msgstr "Reserve rápidamente a través de la"
+
+#~ msgid "ceroOchocientos"
+#~ msgstr ""
+#~ "<p style=\"float:right\">+55 (21) 2547 2661<br> +55 (21) 2246 1070</p>"
+
+#~ msgid "Os campos com (*) são obrigatórios"
+#~ msgstr "Los campos marcados con (*) son obligatorios"
+
+#~ msgid "EL MISTI WEEK"
+#~ msgstr "EL MISTI WEEK"
+
+#~ msgid "* Preço total da reserva, impostos incluídos."
+#~ msgstr "* Precio total de la reserva, con impuestos incluidos."
+
+#~ msgid "NOTÍCIAS"
+#~ msgstr "NOTICIAS"
+
+#~ msgid "travel tips"
+#~ msgstr "Consejos para el viaje"

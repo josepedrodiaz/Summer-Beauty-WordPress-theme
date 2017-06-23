@@ -1,0 +1,4089 @@
+/* todo.less
+// incluye 
+style.css
+md.css
+video.css
+topMenu.css
+*/
+
+
+
+/*  style.css */
+/* Definiciones generales tipografía etc */
+
+/* Nueva Nexa */
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3105b9");
+
+  
+@font-face {font-family: 'Nexa-Bold';src: url('webfonts/3105B9_0_0.eot');src: url('webfonts/3105B9_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3105B9_0_0.woff2') format('woff2'),url('webfonts/3105B9_0_0.woff') format('woff'),url('webfonts/3105B9_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Nexa-Light';src: url('webfonts/3105B9_1_0.eot');src: url('webfonts/3105B9_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3105B9_1_0.woff2') format('woff2'),url('webfonts/3105B9_1_0.woff') format('woff'),url('webfonts/3105B9_1_0.ttf') format('truetype');}
+ 
+
+
+/* Nexa Light 
+@font-face {
+  font-family: 'Nexa-Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Nexa-Light'), url('Nexa-Light.ttf') format('opentype');
+}
+*/
+/* Nexa Bold 
+@font-face {
+  font-family: 'Nexa-Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Nexa-Bold'), url('Nexa-Bold.ttf') format('opentype');
+}
+*/
+
+
+/* Smoothing */
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-feature-settings: "kern", "liga" 0, "calt" 0;
+    font-feature-settings: "kern", "liga" 0, "calt" 0;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+    font-family: 'Nexa-Light';
+    outline: 0;
+
+}
+
+/* Estilos generales para todos los dispositivos */
+a, a:hover{
+	text-decoration: none;
+}
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+.text-align-center{
+	text-align: center;
+}
+#header{
+background-size: cover;
+}
+#destinos, #llegada, #partida,
+#destinos-scroll, #llegada-scroll, #partida-scroll{
+	cursor: pointer;
+}
+
+
+/* chat */
+#lz_overlay_chat{
+	height: 30px;
+}
+html body div#lz_overlay_chat 
+div#lz_chat_overlay_main.lz_chat_base.notranslate div 
+div.lz_overlay_chat_gradient div#lz_chat_overlay_text.unselectable.unmovable{
+	font-family: 'Nexa-Light' !important;
+	font-size: 13px !important;
+}
+
+#lz_eye_catcher{
+  display: none !important;
+}
+
+
+/*****
+IPADS -Landscpae
+*****/
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape) { 
+	
+	#header{
+		#logo{
+			margin: -20px 24px 0 !important;
+			padding: 3em 0 0 !important;
+		}
+	}
+	#headervideo{
+		#logo{
+			margin: 60px 0 0 30px !important
+		}		
+		#primeraLinea{
+			margin-bottom: 155px !important;
+			bottom: 50px !important;
+			#topMenu{
+				float: right !important;
+				padding-right:  0 !important;
+				margin: 85px auto  0!important;
+			}
+		}
+		#fijo{
+			top: 120px !important;
+			#formContainer{
+				#hb247button{
+					padding: 10px 60px !important;
+				}
+			}
+		}
+	}
+	#header{
+		#topMenu{
+				float: right !important;
+				padding-right:  0 !important;
+				margin: 46px auto  0!important;
+			}
+		#primeraLinea{
+			margin-bottom: 310px !important;
+		}
+	}
+	#header2{
+		#logo{
+			margin: 15px 24px 0 !important;
+		}
+		#topMenu{
+			 margin: 3em 1em !important;
+		}
+	}
+	#contenidoCentral{
+		.lineaTres{
+			#banner2{
+				.effects{
+					.img{
+						width: 103% !important;
+					}
+				}
+			}
+			.col-md-8{
+				.gallery__img{
+					width: 335px !important;
+					height: 235px !important;
+				}
+				.gallery__controls{
+					bottom: 83px !important;
+					width: 99.5% !important;
+				}
+				.gallery-wrap{
+					width: 99.8% !important;
+				}
+			}
+			#sliderContainer{
+				padding-left: 0 !important;
+			}
+		}
+		#bannersFinales{
+			.col-md-6{
+				.col-md-5{
+					right: -5px !important;
+				}
+			}
+		}
+		.contenidoTop{
+			.hostel-description-container{
+				.hostel-description{
+					p{
+						line-height: 15px !important;
+					}
+				}
+			}
+		}
+	}
+	.container-fluid{
+		#formContacto{
+			.dos{
+				.box{
+					.column{
+						padding: 8px;
+    					width: 100%;
+						.fila{
+							float: left !important;
+							width: 33.33% !important;
+						}
+					}
+				}
+			}
+			.hostels{
+				p{
+					white-space: normal !important;
+				}
+			}
+		}
+		.contenedorInterno{
+			width: 96vw !important;
+		}
+		#hostelList{
+				.row-fluid{
+					.hostel{
+						.hostelHeader{
+							height: 200px;
+							.trip{
+								margin: 40px 10px !important;
+							}
+							.iconos{
+								img:nth-child(7){
+									display: none;
+								}
+							}
+						}
+						.detalles{
+							.datos{
+								h1{
+									a{
+										font-size: 18px;
+									}
+								}
+							}
+							.reservas{
+								img{
+									position: relative;
+									right: 11px;
+									padding: 2px 6px 2px 7px !important;
+								}
+								.bedsprice{
+									position: relative;								}
+							}
+						}
+						.bannerFinal{
+							width: 96% !important;
+						}
+					}
+					.ponloEnLinea{
+						> div{
+							display: none;
+						}
+					}
+				}
+			}
+		#videoPie{
+			#tituloVideo{
+				bottom: 23%;
+			}
+		}
+		#bannersFinales{
+			> .col-md-6{
+				> .col-md-5{
+					right: -6px !important;
+				}
+			}
+		}
+	}
+	#contenidoCentral{
+		#topHostelsMenu{
+			li#Rio{
+				margin-left: 2% !important;
+			}
+			li#Rooms{
+				margin-left: 2% !important;
+			}
+			li#House{
+				margin-left: 2% !important;
+			}
+			li#Ipanema{
+				margin-left: 3% !important;
+			}
+			li#Copa{
+				margin-left: 2% !important;
+			}
+		}
+		.contenidoMedio{
+			#lineaPunteada{
+				.gralInfoContainer{
+					padding-left: 0 !important;
+					position: relative;
+					right: 3px;
+					.row{
+						.col-md-2{
+							img{
+								position: relative;
+								right: 5px;
+							}
+						}
+					}
+				}
+			}
+			> .col-md-4{
+				.row{
+					.col-md-10{
+						position: relative;
+						left: 5px;
+					}
+				}
+			}
+		}
+	}
+	#headervideo{
+		#videoBanner2{
+			display: none;
+		}	
+	}
+	#promosList{
+		width: 100% !important;
+		overflow: hidden;
+		.banner{
+			margin-left: 18px;
+			padding: 20px 0 !important;
+		}
+		.bannerPromoWrapper{
+			width: 100% !important;
+			height: auto !important;
+			margin: 0 0 10px !important;
+		}
+		.row-fluid{
+			margin-left: 4%;
+			.banner{
+				width:28%;
+				margin: 20px 15px 0 2px !important;
+    			padding: 0 !important;
+				#bannerPrincipalPromosWrapper{
+					width: 106% !important;
+				}
+			}
+			.promo{
+				width: 32%;
+				p{
+					font-size: 10px !important;
+				}
+				h1{
+					font-size: 20px !important;
+					margin-top: 7px !important;
+				}
+			}
+		}
+		.row-fluid:nth-child(1){
+			.tres{
+					position: relative;
+					left: 17px;
+			}
+		}
+	}
+	#menusInferiores{
+		#menuContainer{
+			#txtHome{
+				    font-size: 12px !important;
+				    line-height: 15px !important;
+				}
+		}
+	}
+	.hostelHeader-privado{
+		height: 100px !important;
+	}
+}
+
+/*****
+IPADS - Portrait
+*****/
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait) { 
+	#header{
+		height: 350px !important;
+	}
+	#headervideo{
+		height: 550px !important;
+		#videoBanner2{
+			display: none;
+		}
+		padding: 0 !important;
+			#topMenu{
+				li{
+					padding: 0 5px !important;
+					border-right: 0 !important;
+				}
+			}
+	}	
+	#header2{
+		padding: 0 !important;
+		.contenedorInterno{
+			margin: 0 auto -35px !important;
+		}
+		nav{
+			padding: 0 !important;
+			#topMenu{
+				li{
+					padding: 0 5px !important;
+				}
+			}
+		}
+	}
+	nav{
+		clear: none;
+		#topMenu{
+			.list-inline{
+				left: 0 !important;
+				text-align: center;
+			}
+			ul{
+				li{
+					display: inline !important;
+					margin: 0 auto;
+				}
+			}
+		}
+	}
+	#formScrolleableContainer{
+			width: 100% !important;
+			top: 0 !important;
+    		margin: 0 auto !important;
+    		.formScrolleable{
+    			width: 53em !important;
+    		}
+    		hr{
+    			clear: both;
+    		}
+    		#hb247button-scroll{
+    			left: 3px !important;
+    		}
+			#destinosWrapper{
+				width: 180px !important;
+				float: left !important;
+				background: rgba(0, 0, 0, 0) url("../img/selectDestinosMini.png") no-repeat scroll 0 0 !important;
+				top: 10px !important;
+				overflow: hidden !important;
+			}
+			#destinos{
+				width: 196px !important;
+				float: left !important;
+			}
+			#llegada{
+				 float: left !important;
+			     width: 110px !important;
+			     margin-right: 10px !important;
+			     margin-left: 25px !important;
+			     padding-left: 10px !important;
+			}
+			#nochesWrapper{
+				width: 100px !important;
+				float: left !important;
+				margin-left: -2px !important;			}
+			#noches-scroll{
+				width: 150px !important;
+				float: left !important;
+			}	
+			.text-align-center{
+				top: 0 !important;
+			}
+		}/* /#formScrolleableContainer */
+	div#fijo{
+		width: auto !important;
+		top: 110px !important;
+		#formReservas{
+			width: 700px !important;
+			margin: auto !important;
+			height: 100px !important;
+			top: 75px !important;
+    		position: relative;
+		}
+		#formContainer{
+			width: 680px !important;
+			top: -20px !important;
+    		margin: 0 auto !important;
+    		hr{
+    			clear: both;
+    		}
+    		.text-align-center{
+    			background-color: transparent !important;
+    		}
+    		#hb247button{
+    			left: 8px !important;
+    			top: 13px !important;
+    		}
+			#destinosWrapper{
+				width: 180px !important;
+				float: left !important;
+				background: rgba(0, 0, 0, 0) url("../img/selectDestinosMini.png") no-repeat scroll 0 0 !important;
+				top: 10px !important;
+				overflow: hidden !important;
+			}
+			#destinos{
+				width: 196px !important;
+				float: left !important;
+			}
+			#llegada{
+				 float: left !important;
+			     width: 120px !important;
+			     margin-right: 10px !important;
+			     margin-left: 25px !important;
+			     padding-left: 10px !important;
+			}		
+			#partida{
+				width: 120px !important;
+				position: relative !important;
+				top: 10px !important;
+			}
+			#nochesWrapper{
+				width: 100px !important;
+				float: left !important;
+				margin-left: 17px !important;
+				margin-top: 10px !important;			}
+			#noches{
+				width: 150px !important;
+				float: left !important;
+			}
+			.text-align-center{
+				top: 0 !important;
+			}
+		}/* /#formContainer */
+	}
+	.container-fluid{
+		#formContacto{
+			.tres{
+				padding-left: 0 !important;
+			}
+			.dos{
+				padding-left: 0 !important;
+			}
+			.hostel{
+				left: 11px !important;
+			}
+			.uno{
+				padding-right: 4px !important;
+			}
+			.reserva{
+				.uno{
+					.punta{
+						left: 46% !important;
+						top: -14% !important;
+					}
+					.box{
+						h4{
+							display: inline !important;
+						}
+						img{
+							display: inline !important;
+							float: none !important;
+							margin-right: 10px !important;
+							margin-top: 2px !important;
+						}
+					}
+				}
+				.dos{
+					.box{
+						.column{
+							display: block;
+							clear: both;
+							.fila{
+								float: left !important;
+								width: 33.33% !important;
+							}
+						}
+					}
+				}
+			}
+			.row{
+				margin: 0 !important;
+				.box-gris{
+					margin: 30px auto !important;
+				    padding: 20px 30px 20px 17px !important;
+				    width: 80%;
+					.wpcf7{
+						.wpcf7-form{
+							input, select{
+								width: 100% !important;
+								height: 35px !important;
+								padding: 7px !important;
+								margin: 5px 10px !important;
+								float: left !important;
+								clear: both !important;
+							}
+							input[name="surname"]{
+								position: relative !important;
+								top: 8px !important;
+							}
+							input[name="name"],
+							input[name="pais"],
+							input[name="checkin"]{
+								width: 101% !important;
+							}
+							input[type="submit"],
+							textarea[name="mensaje"]{
+								width: 99% !important;
+							}
+							textarea[name="mensaje"]{
+								margin-left: 10px !important;
+							}
+						}
+					}
+				}
+			}
+			.hostels{
+				.col-md-4{
+					width: 33.33% !important;
+					float: left !important;
+					padding: 0 !important;
+					p{
+						white-space: normal !important;
+						margin: 0 0 10px !important;
+						padding: 5px !important;
+					}
+				}
+			}
+		}
+		#contenidoCentral{
+			.tituloTop{
+				margin-bottom: 23px !important;
+			}
+			.bannersSuperiores{
+				width: 49% !important
+			}
+			.bannersSecundarios{
+				width: 31% !important
+			}
+			#filaBannersSecundarios{
+				.bannersSecundarios:nth-child(2){
+					margin-left: 4px !important;
+				}
+				.bannersSecundarios:last-child{
+					margin-left: 26px !important;
+				}
+			}
+			h1.topHostelsTitle, 
+			#topHostelsMenu{
+				display: none !important;
+			}
+			.contenidoTop{
+				.hostel-description-container{
+					height: auto !important;
+					width: 92vw;
+					.hostel-description{
+						min-height: auto !important;
+						padding: 10px 10px 1px !important;
+					}
+				}
+				#mapContainer{
+					width: 96.7%;
+					margin-top: 15px;
+				}
+			}
+			.contenidoMedio{
+				h1{
+					margin-top: 20px;
+				}
+				> div{
+					width: 50% !important;
+					float: left;
+					> div{
+						float: left !important;
+						clear: both;
+					}
+					.col-md-2, .col-md-10{
+						display: inline !important;
+					}
+					.col-md-2{
+						width: 10% !important;
+					}
+					.col-md-10{
+						width: 80% !important;
+					}
+				}
+				.bannerReviewsIpad{
+	    			display: block !important;
+	    			.img{
+	    				width: 100% !important;
+	    				margin: 75px 0 0 !important;
+	    			}
+	    		}
+				#lineaPunteada{
+					.gralInfoContainer{
+						padding-left: 50px;
+						margin-bottom: 36px;
+						 .noShowiPad{
+						 	display: none;
+						 }
+						.row{
+							.borderRight{
+								border-right: 0 !important;
+								span{
+										margin-right: 5px;
+									}
+								}
+							.col-md-8{
+								span{
+										margin-right: 5px;
+									}
+							}
+							.col-md-2{
+								img{
+									margin-left: -6px !important;
+								}
+							}
+						}
+					}
+					.col-md-6:nth-child(2){
+						display: block !important;
+						clear: both !important;	
+						.col-md-12{
+							position: relative;
+							bottom: 310px !important;
+						}
+						.img{
+							margin: 28px 0 0;
+						}
+					}
+					a.bookabed{
+						display: inline-block !important;
+						min-width: 100%;
+						margin-top: -6px;
+					}
+					.img{
+						img.sideBanner{
+							display: inline-block !important;
+						}
+					}
+				}
+				.botaPT, .botaEN, .botaFR, .botaDE,
+				.copaPT, .copaEN,
+				.rioFR, .rioDE,
+				.roomsEN,
+				.lemePT, .lemeEN,
+				.ipaPT, .ipaEN, .ipaFR, .ipaDE{
+						margin-top: 17px !important;
+				}
+
+			}
+			.lineaTres{
+				#banner2{
+					display: none !important;
+				}
+				#sliderContainer{
+					padding-left: 0 !important;
+					.gallery-wrap{
+						position: relative;
+					    right: 11px;
+					    width: 96%;
+					    .gallery__controls{
+					    	width: 99% !important;
+					    }
+					}
+				}
+				.col-md-8{
+					.gallery__img{
+						width: 348px;
+						height: 244px;
+					}
+				}
+			}
+		}
+		#videoPie{
+			#tituloVideo{
+				bottom: 18% !important;
+				h2{
+					margin-bottom: 10px !important;
+					margin-top: 0 !important;
+				}
+			}
+		}
+		#menusInferiores{
+			padding-left: 0 !important;
+			#menuContainer{
+				padding: 30px 15px 30px 25px !important;
+				ul{
+					.last{margin-top: 10px;}
+					li{
+						a{
+							font-size: 18px !important;
+						}
+					}
+				}
+				#txtHome,
+				#menuPie1, 
+				#menuPie2, 
+				#menuPie3{
+					width: 24% !important;
+					float: left !important;
+				}
+				#txtHome{
+				    font-size: 11px;
+				    line-height: 1.07;
+				}
+			}
+		}
+		#bannersFinales{
+		    position: relative !important;
+		    right: 5px !important;
+			> div:nth-child(1){
+				width: 30% !important;
+				float: left !important;
+			}
+			> div:nth-child(2){
+				width: 60% !important;
+				float: right !important;
+				> div{
+					width: 49% !important;
+					float: right !important;
+				}
+				> div:nth-child(1){
+					display: none;
+				}
+				> div:nth-child(2){
+					position: relative;
+					left: -17px;
+					width: 340px !important;		
+				}
+			}
+			.TA_selfserveprop{
+				div#CDSWIDSSP[style]{
+					border-right: 1px solid #ccc;
+				    padding-right: 2px !important;
+				    width: 342px !important;
+				}
+			}
+		}
+		#grupos{
+			.content{
+				> div:nth-child(4){
+					width: 80%;
+					margin: 0 auto;
+				}
+				> div{
+					margin-bottom: 50px;
+				}
+				.first{
+					ul{
+						margin-bottom: 30px;
+					}
+				}
+				.grupos{
+					.banner{
+						margin-left: 20% !important;
+					    margin-top: 50px !important;
+					    width: 55% !important;
+					}
+				}
+				
+				.alojamiento{
+					p{
+						font-size: 13px !important;
+					}
+				}
+			}
+			.alojamiento{
+				padding: 20px 30px !important; 
+				.banner{
+					display: none;
+				}
+				img{
+					width: 20%;
+				}
+			}
+		}
+	}
+	.container-fluid{
+		#hostelList{
+			margin: 30px auto !important;
+			max-width: none !important;
+			.ponloEnLinea{
+				display: none !important;
+			}
+			.row-fluid{
+				.hostel{
+					float: left;
+				    padding: 0 10px !important;
+				    width: 50% !important;
+				    .detalles{
+				    	.reservas{
+				    		.bedsprice{
+				    			float: left;
+				    			margin: 25px 0 0 10px;
+				    			bottom: 32 !important;
+				    		}
+				    		img{
+				    			float: left;
+				    			margin: 0;
+				    			padding: 0 10px 0 0;
+				    		}
+				    		.search{
+				    			margin: 0 0 30px;
+				    		}
+				    	}
+				    }
+				}
+		  }
+		}
+		#bannersFinales{
+			margin: 20px 0;
+			> div:nth-child(1){
+				margin: 0 12px;
+			}
+			.effects{
+				.img{
+					right: 2px;
+				}
+			}
+		}
+	}
+	#footer{
+		display: table;
+		ul{
+			margin: 0 auto;
+		}
+		.row{
+			margin-bottom: 0 !important;
+		}
+	}
+	#promosList{
+		.row-fluid{
+			position: relative;
+			left: 8px;
+		}
+		.banner,.promo{
+			width: 49%;
+			float: left;
+		}
+		.banner{
+			width: 46.5% !important;
+			#bannerPrincipalPromosWrapper{
+				position: relative;
+				left: 30px;
+			}
+		}
+		.promo{
+			margin: 0 !important;
+			padding: 20px 9px !important;
+		}
+		#menu1{
+			#hostelList{
+				margin: 0 auto;
+			}
+		}
+	}
+
+
+	body{
+		div#lz_overlay_chat{
+			left: 468px !important;
+		}
+	} 
+
+	#header{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		.contenedorInterno{
+			#primeraLinea{
+				#logo{
+					position: relative;
+					bottom: 40px;
+					img{
+						margin: 0 auto !important;
+					}
+				}
+				nav{
+					padding: 0 !important;
+					#topMenu{
+						margin: -3em auto -5em !important;
+					}
+				}
+			}
+		}
+		#fijo{
+				margin-top: -30px !important;
+		}
+	}
+	.container-fluid{
+		> .contenedorInterno{
+			margin-left: 2.2% !important;
+			width: 95vw !important;
+			.tituloTop{
+				div:nth-child(1){
+					width: 65% !important;
+					float: left !important;
+					white-space: nowrap;
+				}
+				div:nth-child(2){
+					 float: right !important;
+				    padding-right: 29px !important;
+				    width: 35% !important;
+				}
+			}
+		}
+	}
+	#hostelList{
+		margin-top: 30px;;
+	}
+}
+
+
+
+
+/*****
+IPADS - Portrait + landscpae
+*****/
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px)  { 
+	#headervideo{
+		background-position: 10% 0 !important;
+	}
+	#rrss{
+		display: none;
+	}	
+	.row-fluid{
+		border: 0 !important;
+		.promo{
+			p{
+				font-size: 12px !important;
+			}
+		}
+	}
+	#grupos{
+		.content{
+			blockquote{
+				p, footer{
+					font-size: 15px !important;
+					line-height: 25px !important;
+				}
+				p::after, p::before{
+					font-size: 15px !important;
+				}
+			}
+		}
+	}
+	#hostelList{
+		.row-fluid{
+			.hostel{
+				.segundaLinea{
+					.img-privado-wrapper{
+						width: 49% !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/* md.css */
+/* El Misti Hostels & Pousadas 2015 - pedro@elmistihostels.com */
+/* importa estilos del player de video
+@import url("video.css"); */
+/*importa los estilos de overlay*/
+@import url("overlay.css");
+/*importa los estilos del menu suoerior
+@import url("topMenu.css");*/
+
+
+
+
+
+#header2{
+	#formScrolleableContainer{
+		z-index: 1;
+	}
+	#formReservas{
+		position: relative;
+	    top: 16px;
+	   }
+	.contenedorInterno{
+		float: none;
+	    margin: 0 auto 47px;
+	    width: 1104px;
+	}
+	
+	height: 340px;
+	background: transparent;
+	/*background-image: url('http://update.elmistihostels.com/_html/img/bg-list.jpg');*/
+	/*background-size: cover;*/
+	#formContainer{
+		width: 56em;
+		position: relative;
+		top: -72px;
+	}
+	#primeraLinea{
+		margin-bottom: 6%;
+		margin:0;
+	}
+	#idiomas{
+		z-index: 9993;
+		#lang_sel{
+			float: right;
+			height: auto;
+			ul{
+				ul{
+					width: 220px !important;
+	    			li{
+	    				width: 55px;
+	    				a{
+							border-right: 1px solid #fff;
+						    height: 10px;
+						    line-height: 9px !important;
+						    padding: 0 9px;
+						    margin-top: 20px;
+	    				}
+	    			}
+	    			li:last-child{
+	    				a{
+	    					border-right: 0;
+	    				}
+	    			}
+				}
+			}
+			li{
+				width: 226px;
+				text-align: right;
+				margin-right: 5px;
+				a{
+					background-color: transparent !important;
+					border: none;
+					font-family: 'Arial';
+				    font-size: .8em;
+				    color: #fff !important;
+				    line-height: 20px !important;
+				    padding: 0 0 0 18px;
+				}
+				a.lang_sel_sel {
+				    background: url(../img/flecha-idiomas.png) #fff right no-repeat;
+				    padding-right: 10px;
+				}
+				ul{
+					width: 220px;
+					top: 0;
+					z-index: 9999;
+					border: none;
+				}
+			}
+		}	
+	}
+}
+#header,#headervideo{
+	height: 550px;	
+	background-repeat: no-repeat;
+	z-index: 1;
+	margin-bottom: 30px;
+
+	#videoBanner2{
+	    padding-top: 30%;
+	    position: absolute;
+	}
+
+	#primeraLinea{
+    	margin-bottom: 275px;
+    	margin-right: 0;
+    	margin-left: 0;
+	}
+	#formContainer{
+		width: 56em;
+		position: relative;
+		top: -6.1em;
+	}
+}
+
+.container-fluid{
+	padding: 0;
+
+	.contenedorInterno{
+		float: none;
+	    margin: 0 auto;
+	    width: 1104px;
+	}
+
+	#sphoto{
+		padding: 20px 0 0;
+	}
+}
+#idiomas{
+	z-index: 9990;
+}
+#idiomas, .primeraLinea{
+	padding: 0;
+}
+#idiomas{
+	#lang_sel{
+		float: right;
+		height: auto;
+		ul{
+			ul{
+				width: 220px !important;
+    			li{
+    				width: 55px;
+    				a{
+						border-right: 1px solid #fff;
+					    height: 10px;
+					    line-height: 9px !important;
+					    padding: 0 9px;
+					    margin-top: 20px;
+    				}
+    			}
+    			li:last-child{
+    				a{
+    					border-right: 0;
+    				}
+    			}
+			}
+		}
+		li{
+			width: 226px;
+			text-align: right;
+			margin-right: 5px;
+			a{
+				background-color: transparent !important;
+				border: none;
+				font-family: 'Arial';
+			    font-size: .8em;
+			    color: #fff !important;
+			    line-height: 20px !important;
+			    padding: 0 0 0 18px;
+			}
+			a.lang_sel_sel {
+			    background: url(../img/flecha-idiomas.png) #fff right no-repeat;
+			    padding-right: 10px;
+			}
+			ul{
+				width: 220px;
+				top: 0;
+				z-index: 9999;
+				border: none;
+			}
+		}
+	}	
+}
+#logo{
+	padding: 0;
+	text-align: right;
+	z-index: 9995;
+}
+ul#languageSwitcher{
+	list-style-type: none;
+	margin-bottom: 0;
+	font-family: 'Arial';
+	font-size: 0.8em;
+	color: #fff;
+	margin-top: 0.25em;
+	cursor: pointer;
+	text-align: right;
+}
+
+#topMenu {
+		margin: 3em auto;
+		ul{
+			white-space: nowrap;
+		}
+		li{
+			border-right: 0.1em solid #fff;
+			line-height: 1em;
+			padding: .2em 7px 0;
+			a{
+				font-family: 'Nexa-Bold';
+				font-size: 18px;
+				color: #fff;
+				text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+				-webkit-font-smoothing: antialiased;
+			}
+			a:hover{
+				color: #22d3c6;
+			}
+
+		}
+			.first{
+						padding-left: 0;
+		}
+			.last{
+						border-right: 0;
+		}
+			.list-inline{
+				margin: 0;
+				position: relative;
+    			left: 4%;
+			}
+	}
+#rrss{
+	padding: 2.5em 0;
+	text-align: right;
+	float: right;
+	ul{
+		margin-left: 0;
+    	white-space: nowrap;
+    	position: relative;
+    	right: 0;
+		li{
+			margin: 0;
+			padding: 0;
+			a{
+				width: 2.25em;
+				height: 2.25em;
+				margin-right: 0.2em;
+				background-image: url('../img/RRSS-sprite.svg');
+				display: block;
+			}
+		}
+	}
+	#Facebook{
+		a{
+			background-position: -27px -3px;
+
+		}
+		a:hover{
+			background-position: -11px -56px;
+		}
+
+	}
+	#Twitter{
+		a{
+			background-position: -69px -3px;
+		}
+		a:hover{
+			background-position: -89px -56px;
+		}
+
+	}
+	#GooglePlus{
+		a{
+			background-position: -119px -3px;
+		}
+		a:hover{
+			background-position: -138px -56px;
+		}
+
+	}
+	#Instagram{
+		a{
+			background-position: -171px -3px;
+		}
+		a:hover{
+			background-position: -176px -56px;
+		}
+
+	}
+	#Youtube{
+		a{
+			background-position: -228px -3px;
+		}
+		a:hover{
+			background-position: -234px -56px;
+		}
+
+	}
+}
+#formScrolleableContainer{/* Form AFFIX FIJO */
+	display: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	top: 0;
+    right: 0;
+    height: 7em;
+    padding-top: 0.65em;
+    background-color:rgba(86,90,92,0.7);
+    width: 100%;
+    .formScrolleable{
+    	height: 5.4em;
+    	.formu{
+    		padding: 10px 44px 0;
+	    	#destinosWrapper{
+	    		padding-right: 30px;
+	    	}
+    	}
+    	.contactInfo{
+    		margin-top: 5px;
+    	}
+    }
+}
+#formReservas,.formScrolleable{
+	width: 60em;
+	height: 7.3em;
+	background-color: #fff;
+	border-radius: 2px;
+	background-color:rgba(255,255,255,0.8);
+}
+#formContainer,#formScrolleableContainer{
+	text-align: right;
+	/* placeholder darker,etc */
+	::-webkit-input-placeholder{ 
+	    color: #565a5c;
+	    padding: 0.1em 0 0 1em;
+	    font-size: 0.9em;
+	    opacity: 1 !important;
+	}
+	::-moz-placeholder
+	  {
+	    color: #565a5c;
+	    padding: 0.1em 0 0 1em;
+	    font-size: 0.9em;
+	    opacity: 1 !important;
+	}
+	#llegada,#llegada-scroll,#partida,#partida-scroll{
+		margin-left: 1em;
+		margin-right: 1em;
+		border: none;
+		height: 30px;
+		padding: 0 0 0 1em;
+		font-style: italic;
+    	font-family: 'Arial';
+    	font-size: 1em;
+    	color: #565a5c;
+    	opacity: 1 !important;
+    	float: left;
+    	background: #fff url("https://www.elmistihostels.com/template-hostels-club/selectNoches.png") no-repeat right center;
+	}
+	#llegada,#llegada-scroll,
+	#partida,#partida-scroll{
+		width: 120px;
+	}
+	#partida,#partida-scroll{
+	    float:left;
+    	color: #565a5c;
+    	-webkit-appearance:none;
+	}
+	#nochesWrapper{
+		width:94px; 
+    	height:30px;
+	    float:left;
+	    overflow:hidden;
+	    background:url('../img/selectNoches.png') 0 0 no-repeat;
+		#noches,#noches-scroll{
+			width:114px;
+		    border:none;
+		    background-color: transparent;
+		    outline: none;
+		    font-style: italic;
+	    	font-family: 'Arial';
+	    	font-size: 0.9em;
+	    	color: #565a5c;
+	    	-webkit-appearance:none;
+	    	padding: 0.5em 0 0 1em;
+		}
+	}
+	#hb247button{ /* Boton de reserva */
+		background-color: #ff5a5e;
+		font-family: 'Nexa-Bold';
+		font-size: 0.9em;
+		color: #fff;
+		padding: 7px 67px;
+		position: relative;
+		top: -0.1em;
+		margin-left: 0.5em;
+		-webkit-transition: all 0.3s ease;
+	    -moz-transition: all 0.3s ease;
+	    -o-transition: all 0.3s ease;
+	    transition: all 0.3s ease;
+	    border: none;
+		}
+	#hb247button-scroll{
+		background-color: #ff5a5e;
+		font-family: 'Nexa-Bold';
+		font-size: 0.9em;
+		color: #fff;
+		padding: 7px 67px;
+		position: relative;
+		top: 0;
+		margin-left: 0.5em;
+		-webkit-transition: all 0.3s ease;
+	    -moz-transition: all 0.3s ease;
+	    -o-transition: all 0.3s ease;
+	    transition: all 0.3s ease;
+	    border: none;
+	}
+	#hb247button:hover,#hb247button-scroll:hover{
+		background-color: #22c9d3;
+	}
+	.formreservasBold{
+		font-family: 'Nexa-Bold';
+		font-size: 1em;
+		color: #565a5c;
+		img{
+			margin: 0;
+			position: relative;
+			bottom: 0.2em;
+		}
+	}
+	.formreservasLight{
+	font-family: 'Nexa-Bold';
+	font-size: 1em;
+	color: #22d3c6;
+	}
+	.cero800{
+		color: #ff5a5e;
+	    font-family: "Nexa-Bold";
+	    font-size: 1.2em;
+	    margin: 0 0 0 0.2em;
+	    position: relative;
+	    top: 1px;
+	}
+}
+#destinosWrapper,{
+    	width:300px; 
+    	height:30px;
+	    float:left;
+	    overflow:hidden;
+	    background:url('../img/selectDestinos.png') 0 0 no-repeat;
+	    select{
+	    	width:420px;
+		    border:none;
+		    background-color: transparent;
+		    outline: none;
+		    font-style: italic;
+	    	font-family: 'Arial';
+	    	font-size: 0.9em;
+	    	color: #565a5c;
+	    	-webkit-appearance:none;
+	    	padding: 0.5em 0 0 1em;
+	    }
+    }
+ hr#separadorFormReservas{
+ 	border-color: #565a5c;
+ 	margin: 0.7em 0 0.5em 0;
+ }
+
+
+  #contenidoCentral{
+	position: relative;
+	padding: 0;
+  	.tituloCentral{
+  		text-align: center;
+  		font-family: 'Nexa-Light';
+  		font-size: 27px;
+  		color: #565a5c;
+  		border-bottom: 1px dotted #565a5c;
+  		margin-bottom: 30px;
+  		padding-bottom: 0.15em;
+  		padding-top: 22px;
+  	}
+  	#map {
+                width: 100%;
+                height: 260px;
+                .gm-style{
+                	div{
+                		a{
+                			div{
+                				img{
+                					/* display: none;remove Google logo */
+                				}
+                			}
+                		}
+                	}
+                }
+                .gm-style-cc{
+                	display: none;/*remove terms&conditions*/
+                }
+                .gmnoprint{
+                	left: 0 !important;  
+                	bottom: 242px !important;             }
+            }
+    #mapTxt{
+    	width: 175px;
+    	height: 112px;
+    	overflow: hidden;
+    	background-color: rgba(255, 255, 255, 0.9);
+    	border: 1px solid #666;
+    	float: right;
+    	position: absolute;
+    	bottom: 12px;
+    	right: 10px;
+    	font-family: 'Nexa-Light';
+  		font-size: 11px;
+  		line-height: 14px;
+  		text-align: center;
+  		padding: 5px 10px 0 10px;
+  		#nombreHostel{
+  			border-bottom: 1px solid #666;
+  		}
+    }
+    .nombreHostel{
+    	font-family: 'Nexa-Light';
+  		font-size: 27px;
+  		display: inline;
+    }
+    .tituloTop{
+    	border-bottom: 1px dotted #565a5c;
+    	padding-bottom: 10px;
+  		padding-top: 22px;
+  		margin-bottom: 30px;
+    	img{
+    		margin-top: -12px;
+    	}
+    	div{
+    		padding: 0;
+    	}
+    	.opinionsContainer{
+		    text-align: right;
+		    .cucardaTrip{
+		    	position: absolute;
+				right: 210px !important;
+		    }
+		    .percent{
+		    	font-family: 'Nexa-Bold';
+		  		font-size: 29px;
+		  		display: inline;
+		  		padding-right: 5px;
+		    }
+		    .opinions{
+		    	font-family: 'Nexa-Light';
+		  		font-size: 16px;
+		  		display: inline;
+		    }
+		}
+    }
+    .contenidoTop{
+    	div{
+    		padding: 0;
+    	}
+    	.hostel-description-container{
+    		padding:0 25px 0 0;
+    		height: 260px;
+    		overflow: hidden;
+    		.hostel-description{
+    			p{
+    				margin-bottom: 10px;
+    				font-size: 12px;
+    			}
+    			color: #fff;
+    			font-family: 'Nexa-Light';
+		  		font-size: 13px;
+		  		padding: 15px;
+		  		text-align: justify;
+		  		line-height: 18px;
+		  		min-height: 260px;
+    		}
+    	}
+    }
+    .contenidoMedio{
+    	margin: 30px -28px 30px -26px;
+    	padding: 0;
+    	font-family: 'Nexa-Light';
+    	font-size: 12px;
+    	color: #666;
+    	
+    	h1{
+    		font-size: 25px;
+    		margin-top: 0;
+    	}
+    	h2{
+    		font-size: 25px;
+    	}
+    	ul{
+    		list-style-type: none;
+    		padding-left: 0;
+    	}
+    	div div{
+    		padding: 0;
+    	}
+    	.col-md-4{
+    		.bannerReviewsIpad{
+    			display: none;
+    		}
+    		.row{
+    			margin-left: -27px;
+    		}
+    	}
+    	.row{
+    		padding-top: 8px;
+    		.col-md-2{
+    			img{
+    				margin-left: 25px;
+    			}
+    		}
+    		.col-md-10{
+    			padding-top: 8px;
+    			padding-right: 35px;
+    			img{
+    				margin-top: -7px;
+    			}
+    		}
+    	}
+    	#lineaPunteada{
+    		border-left: 1px dotted #666;
+    		position: relative;
+    		right: 7px;
+    		padding-right: 7px;
+    		.img{
+ 					width: 100%;
+ 					margin: 0;
+ 					margin-bottom: 15px;
+ 				}
+ 			.gralInfoContainer{
+ 				padding-left: 15px;
+ 				.row{
+					padding-top: 13px;
+					.col-md-2{
+						img#reloj{
+							margin-top: -10px;
+						}
+					}
+					.col-md-8{
+						padding-left: 7px;
+					}
+				}
+				.borderRight{
+					border-right: 1px solid #666;
+				}
+			}
+    		a.bookabed{
+    			background-color:#ff5a5e;
+    			padding: 9px 0;
+    			height: 37px;
+    			font-family: 'Nexa-Bold';
+    			font-size: 13px;
+    			color: #fff;
+    			display: block;
+    			text-align: center;
+    			img{
+    				margin-left: 15px;
+    				margin-top:-3px;
+    			}
+    		}
+    		a.bookabed:hover{
+    			background-color: #22c9d3;
+    			-webkit-transition: all 0.3s ease;
+			    -moz-transition: all 0.3s ease;
+			    -o-transition: all 0.3s ease;
+			     -ms-transition:  all 0.3s ease;
+			    transition: all 0.3s ease;
+    		}
+    	}
+    }
+    .lineaTres{
+    	div div{
+    		padding: 0;
+    	}
+    	#banner2{
+    		.img{
+    			width: 100%
+    		}
+    	}
+    	.col-md-8{
+    		/* SLIDES */
+    		.gallery-wrap { margin: 0 auto; overflow: hidden; width: 100%; }
+			.gallery { position: relative; left: 0; top: 0; }
+			.gallery__item { float: left; list-style: none; margin-right: 2px; }
+			.gallery__img { display: block; height: 259px; width: 370px; }
+
+			.gallery__controls { position: absolute;bottom: 100px;width: 97.5%; }
+			.gallery__controls-prev { cursor: pointer; float: left; }
+			.gallery__controls-next { cursor: pointer; float: right; }
+			/* /SLIDES */
+			padding-right: 0;
+    	}
+    }
+
+    /* BANNERS HOME*/
+    #filaBannersSuperiores,
+    #filaBannersSecundarios{
+    	margin-right: 0;
+    	margin-left: 0;
+    	.textBannersHomeOverlay{
+    		font-family: Nexa-Light;
+    		color: #fff;
+    		width: 90%;
+    		text-align: center;
+    		line-height: 1.3em;
+    		text-transform: uppercase;
+    	}
+    }
+
+    #filaBannersSecundarios{
+    	#secundario3{
+    		a{
+    			img{
+    				margin: 28% auto !important;
+    			}
+    		}
+    	}
+    }
+
+  	.bannersSuperiores{
+		width: 49%;
+		img{ width: 100% }
+		.textBannersHomeOverlay{
+			font-size: 22px;
+    		margin: 45% auto;
+		}
+		.overlay{
+
+			a{
+				img{
+					width: 100px;
+					height: 100px;
+					display: block;
+				    margin: 25% auto;
+				}
+			}
+		}	
+	}
+
+
+
+	#superior1{
+	float: left;
+	}
+	#superior2{
+	float: right;
+	margin-right:0;
+	}
+	#secundario1{
+	margin-top: 30px;
+	margin-right: 3%;
+	margin-left: -15px;
+	}
+	#secundario2{
+	margin-top: 30px;
+	text-align: center;
+	margin-right: 3%;
+	}
+	#secundario3{
+	margin-top: 30px;
+	margin-right: 0;	
+	}
+
+
+	.bannersSecundarios{
+		.textBannersHomeOverlay{		}
+		.overlay{	
+			.textOverlay{
+				color: #fff;
+			    font-family: 'Nexa-Light';
+			    line-height: 1.5em;
+			    text-align: center;
+			    text-transform: uppercase;
+			    width: 90%;
+				font-size: 18px;
+	    		margin: 48% auto;
+			}
+			a{
+				img{
+					width: 80px;
+					height: 80px;
+					display: block;
+				    margin: 25% auto;
+				}
+			}
+		}
+		img{ width: 100% }
+		width: 31.77%;	
+	}
+
+
+  	.topHostelsTitle{
+  		font-family: 'Nexa-Light';
+  		font-size: 27px;
+  		color: #565a5c;
+	    float: left;
+	    clear: both;
+	    padding: 0;
+	    margin: 30px 0 20px;
+  	}
+  	#topHostelsMenu{
+  		width: 100%;
+  		float: left;
+  		clear: both;
+  		li{
+  			background-repeat: no-repeat;
+  			padding: 0;
+  			width: 170px;
+  			height: 170px;
+  			background-size: 100%;
+  			background-position: center;;
+			  -moz-border-radius: 170px;
+			  -webkit-border-radius: 170px;
+			  border-radius: 170px;
+			  display: inline-flex;
+  			a{
+  				width: 170px;
+  				height: 170px;
+  				display: block;
+  				font-family: 'Nexa-Bold';
+  				font-size:29px;
+  				color: #fff;
+  				text-align: center;
+  				padding-top: 75px;
+  				background-color: rgba(240, 92, 96, 0); 
+  				border-radius: 93px;
+  				line-height: 25px;	
+  				span{
+  					margin-left: 1%;
+  				}		
+  			}
+  			a:hover{
+  				background-color: rgba(240, 92, 96, 0.7);
+  			}
+  		}
+  			
+  		li#Rio{
+  				background-image: url('../img/menu-hostels/rio.svg');	
+  		} 
+  		li#Rooms{
+  				background-image: url('../img/menu-hostels/rooms.svg');
+  				margin-left: 6%;	 
+  		} 
+  		li#House{
+  				background-image: url('../img/menu-hostels/house.png');	 
+  				margin-left: 6%;	
+  		} 
+  		li#IlhaGrande{
+  				background-image: url('../img/menu-hostels/ilha.png');
+  				margin-left: 5%;		
+  				span{
+  					position: relative;
+  					bottom: 10px;
+  				}	
+  		} 
+  		li#Ipanema{
+  				background-image: url('../img/menu-hostels/ipa.png');
+  				margin-left: 5%;		
+  		} 
+  		li#Copa{
+  			background-image: url('../img/menu-hostels/copa.png');
+  			margin-right: 0;
+  			text-align: right;
+  			float: right;	 
+  		} 
+  	}
+ }
+ #videoPie{
+ 	padding: 0;
+ 	margin: 10px 0 30px;
+ 	position: relative;
+ 	text-align: center;
+ 	#tituloVideo{
+ 		bottom: 20vh;
+ 		position: absolute;
+ 		width: 100%;
+ 		a{
+	 		color: #fff;
+ 			font-size: 29px;
+ 			img{
+ 				position: relative;
+ 				right: 3px;
+ 			}
+	 	}
+	 	h1{
+	 		margin-bottom: 0;
+	 		padding-bottom: 0;	
+	 		a{		
+	 			font-family: 'Nexa-Bold';
+	 		}		
+	 	}
+	 	h1.videoHostel{
+	 		margin-top: 10px;
+	 	}
+	 	h2{
+	 		margin-top: 0;
+	 		padding-top: 0;	
+	 		a{		
+	 			font-family: 'Nexa-Light';	
+	 		}		
+	 	}
+	 	h2.videoHostel{
+	 		margin-top: 20px;
+	 		margin-bottom: 20px;
+	 		a{
+	 			font-family: 'Nexa-Bold';
+	 		}
+	 	}
+ 	}
+ 	
+ }
+
+ #bannersFinales{
+ 	display: table;
+ 	margin-bottom: 30px;
+ 	padding: 0;
+    	div, div div, div div div{
+    		padding: 0;
+    	}
+    	.effects{
+    		.img{
+    			width: 100%;
+    			margin: 0;
+    			img{
+    				height: 245px !important;
+    			}
+    		}
+    	}
+    	.TA_selfserveprop{/*Widtget TripAdvisor*/
+    		div.widSSPData[style]{
+    			border: 1px solid #666 !important;
+    		}
+    		div.widSSPData{
+    			height: 245px !important;
+    			width: 485px !important;
+    			border:1px solid #cccccc;
+    		}
+    		div#CDSWIDSSP[style]{
+    			width: 485px !important;
+    			.widSSPOptional + .widSSPOptional {
+				    border-top: 0 !important;
+				}
+    		}
+    	}
+    	.col-md-5{
+    		position: relative;
+    		right: 25px;
+    	}
+    	.col-md-7{
+    		position: relative;
+    		left: 15px;
+    	}
+    }
+
+ #menusInferiores{
+ 	#menuContainer{
+ 		border-top: 1px dotted #565a5c;
+ 		margin: 0 auto;
+ 		padding: 30px 15px;
+ 		#txtHome{
+ 			background-color: #22d3c6;
+ 			color: #fff;
+ 			font-family: 'Nexa-Light';
+ 			font-size: 13px;
+ 			padding: 13px 15px 1px;
+ 			text-align: justify;
+ 			height: 395px;
+ 			line-height: 16px;
+ 			width: 24%;
+ 			p{
+ 				margin:3px 0 10px
+ 			}
+ 		}
+ 		div{
+ 			padding: 0;
+ 		}
+ 		#menuPie1, #menuPie2{
+ 			margin-left: 0.5%;
+ 			padding: 0 0 0 0.5%;
+ 		}
+ 		#menuPie3{
+ 			width: 24%;
+ 			margin-left: 1%
+ 		}
+ 		ul{
+ 			text-align: center;
+ 			list-style: none;
+ 			width: 100%;
+ 			height: 395px; 
+ 			padding-left: 0;
+ 			background-size: cover;
+ 			li.menuTitle{ 
+				span{
+					background-color: #22d3c6;
+				    color: #fff;
+				    display: block;
+				    font-family: "Nexa-Bold";
+				    font-size: 20px;
+				    margin: 0 auto;
+				    padding: 5px 0 2px;
+				    width: 160px;
+ 				}
+ 			}
+ 			li{ 
+ 				a{
+ 					font-family: 'Nexa-Light';
+ 					font-size: 23px;
+ 					color: #fff;
+ 				}
+ 				a:hover{
+ 					color: #22d3c6;
+ 				}
+ 			}
+ 			.menuItem{
+ 					border-bottom: 1px solid #fff;
+ 					padding: 43px 0;
+ 			}
+ 			.last{
+ 				border-bottom: 0;
+ 			}
+
+ 		}	
+ 		#listaMenu1{
+ 			background-image: url("../img/menus-pie/menu-1-bkg.jpg");
+ 			}
+ 		#listaMenu2{
+ 			background-image: url("../img/menus-pie/menu-2-bkg.jpg");
+ 			}
+ 		#listaMenu3{
+ 			background-image: url("../img/menus-pie/menu-3-bkg.jpg");
+ 			}
+ 	}
+ }
+ #footer{
+ 	text-align: center;
+ 	color: #6b6b6b;
+ 	background-color: #d1d1d1;
+ 	padding-top: 20px;
+ 	padding-left: 0;
+ 	padding-right: 0;
+ 	font-family: "Nexa-Light";
+ 	.row{
+ 		margin-bottom: 10px;
+ 	}
+ 	#menu1{
+ 		font-size: 13px;
+ 		border-right: 1px dotted #6b6b6b;
+ 		height: 190px;
+ 		overflow: hidden;
+ 		padding-left: 16%;
+ 		#hostelList{
+ 			line-height: 20px;
+ 			text-align: left;
+ 		}
+ 	}
+ 	#menu2{
+ 		flex:1;
+ 		border-right: 1px dotted #6b6b6b;
+ 		height: 190px;
+ 		overflow: hidden;
+ 	}
+ 	#menu3{
+ 		text-align: left;
+ 		font-size: 13px;
+ 		padding-left: 5%;
+ 		height: 190px;
+ 		overflow: hidden;
+ 		ul{
+ 			line-height: 23px;
+ 			li{
+ 				text-align: left;
+ 			}
+ 		}
+ 		p{
+ 			position: relative;
+ 			bottom: 0;
+ 			margin: 0;
+ 		}
+ 	}
+ 	a{
+ 		color:#6b6b6b;
+ 	}
+ 	a:hover{
+ 		font-family: 'Nexa-Bold';
+ 	}
+ 	ul{
+ 		list-style-type: none;
+ 		padding-left: 0;
+ 	}
+ 	h1{
+ 		font-size: 16px;
+ 		font-family: 'Nexa-Bold';
+ 	}
+ 	p{
+ 		font-family: 'Nexa-Light';
+ 		font-size: 13px;
+ 		img{
+ 			position: relative;
+ 			bottom: 3px;
+ 		}
+ 	}
+ 	span{
+ 		color: #e01709;
+ 	}
+ 	#rrss_bottom{
+		li{
+			margin: 0;
+			padding: 0;
+			a{
+				width: 2.3em;
+				height: 2.25em;
+				margin-right: 0.2em;
+				background-image: url('../img/RRSS-bottom-sprite.svg');
+				display: block;
+			}
+		}
+		#Facebook{
+			a{
+				background-position: -10px -10px;
+			}
+			a:hover{
+				background-position: -245px -11px;
+			}
+
+		}
+		#Twitter{
+			a{
+				background-position: -55px -10px;
+			}
+			a:hover{
+				background-position: -282px -11px;
+			}
+
+		}
+		#GooglePlus{
+			a{
+				background-position: -101px -10px;
+			}
+			a:hover{
+				background-position: -320px -11px;
+			}
+
+		}
+		#Instagram{
+			a{
+				background-position: -147px -10px;
+			}
+			a:hover{
+				background-position: -357px -11px;
+			}
+
+		}
+		#Youtube{
+			a{
+				background-position: -194px -10px;
+			}
+			a:hover{
+				background-position: -395px -11px;
+			}
+
+		}
+	}
+	#bottomMenu{
+		clear: both;
+	    float: none;
+	    margin: 20px auto 10px;
+	    border-top: 1px solid #6b6b6b;
+	    border-bottom: 1px solid #6b6b6b;
+	    padding: 12px;
+	    ul{
+	    	margin-bottom: 0;
+	    	li{
+	    		border-right: 1px solid #6b6b6b;
+			    line-height: 20px;
+			    padding: 3px 20px 0 20px;
+	    		a{
+	    			font-size: 18px;
+	    			color: #666666;
+	    		}
+	    		a:hover{
+	    			color: #fff;
+	    		}
+	    	}
+	    	.last{
+	    		border:none;
+	    	}
+	    }
+	}
+	#lineaFinal{
+		height: 18px;
+		text-align: left;
+		#copy{
+			border-right: 1px solid #fff;
+		}
+		ul{
+			white-space: nowrap;
+		}
+	}
+	#pieFinal{
+		background-color: #666666;
+		margin: 0;
+		color: #fff;
+		font-size: 13px;
+		font-family: 'Nexa-Light';		
+ 		padding-right: 0;
+ 		padding-top: 8px;
+		a{
+			color: #fff;
+		}
+		a:hover{
+			font-family: 'Nexa-Bold';	
+		}
+	}
+ }
+/* HOSTELS LIST */
+#hostelList{
+	clear: both;
+		.detalles{
+			.reservas{
+				bottom: 0;
+			}
+		}
+	#hostelSelect{
+		background: rgba(0, 0, 0, 0) url("../img/selectHostelList.jpg") no-repeat scroll 0 0;
+	    color: #565a5c;
+	    font-family: Arial;
+	    font-size: 13px;
+	    font-style: italic;
+	    height: 34px;
+	    margin: 370px 0 25px;
+	    overflow: hidden;
+	    width: 218px;
+	    select{
+	    	-webkit-appearance:none;
+	    }
+	    .dropdown_product_cat{
+	    	background-color: transparent;
+	    	width: 270px;
+	    	border: 0;
+	    	margin: 8px 5px;
+	    	outline: none;
+	    }
+	    .product-tag-hostels{
+	    	.detalles{
+	    		img{
+	    			padding: 2px 10px 2px 15px !important;
+	    		}
+	    	}
+	    }
+	}
+	.row-fluid,.row{
+		/*border-top: 1px dotted #565a5c;*/
+		margin: 0;
+		.uno{
+			padding: 20px 20px 0 0;
+		}
+		.dos{
+			padding: 20px 9px 0;
+			.bedsprice{
+				margin-right: 5px !important;
+			}
+		}
+		.tres{
+			padding: 20px 0 0 20px;
+		}
+		.anchOk{
+			margin-left: 0 !important;
+			width: auto !important;
+		}
+		.hostelPhotoLink{
+        	position: relative;
+        	bottom: 230px;
+        	left: 0;
+        	display: block;
+        	width: 100%;
+        	height: 230px;
+        }
+		.uno-privado{
+			padding-right: 20px;
+			.primera{
+				padding-left: 10px;
+			}
+		}
+		.dos-privado{
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.tres-privado{
+			padding-left: 20px;
+		}
+		.bannerFinalGrilla1{
+			width: 98%;
+			height: 94%;
+			margin: 5% 0 0 1.5%;
+		}
+		.bannerFinalGrilla2{
+			width: 98%;
+			height: 94%;
+			margin: 4.5% 0 0 4%;
+		}
+		.bannerFinalGrilla1,
+		.bannerFinalGrilla2{
+			a{
+				img{
+					display: block;
+				    height: 80px;
+				    margin: 21% auto;
+				    width: 80px;
+				}
+			}
+			.textOverlay{
+				color: #fff;
+			    font-family: 'Nexa-Light';
+			    line-height: 1.3em;
+			    text-align: center;
+			    text-transform: uppercase;
+			    width: 90%;
+    			margin: 38% auto;
+			}
+		}
+		
+		
+	}
+	.hostel{
+		padding: 20px 0;
+		.hostelHeader{
+			height: 230px;
+			position: relative;
+			background-position: 41% 0;
+			margin-bottom: 2px;
+			overflow: hidden;
+			.hostel-list-header-hostel-image{
+				width: 100%;
+			}
+			.trip{
+				bottom: 230px;
+			    float: right;
+			    margin: 15px 10px;
+			    position: relative;
+			}
+			.iconos{
+				text-align: center;
+				position: absolute;
+				bottom: 10px;
+				width: 100%;
+				img{
+					margin: 0 9px;
+				}
+				.cafe{
+					position: relative;
+					bottom: 3px;
+				}
+				.wifi, .transporte, .candado{
+					position: relative;
+					top: 3px;
+				}
+			}
+			a.hostelPhotoLink{
+				bottom: 0;
+				left: 0;
+			    height: 230px;
+			    position: absolute;
+			    width: 100%;
+			    z-index: 99;
+			}
+		}
+		.hostelHeader-privado{
+			height: 111px;
+			.trip{
+				bottom: 115px;
+				a.hostelPhotoLink{
+					bottom: 0;
+				    height: 112px;
+				    position: absolute;
+				    width: 100%;
+				    z-index: 99;
+				}
+			}
+		}
+		.segundaLinea{
+				padding-left: 0;
+				padding-right: 0;
+				border: 0 !important;
+				.primera{
+					margin-right: 5px !important;
+				}
+				.img-privado-wrapper{
+					width:171px;
+					height:120px;
+					overflow: hidden;
+					display: inline;
+					float: left;
+					margin: 0;
+					padding-left: 0 !important;
+					padding-right: 0 !important;
+					.img-privado{
+						width: 171px;
+						height: 120px;
+						position: relative;
+						top: 230px;
+					}
+				}
+			}
+	}
+	.detalles{
+		.datos{
+			padding: 0;
+			h1{
+				margin-top: 13px;
+				svg{
+					position: relative;
+					bottom: 6px;
+				}
+				a{
+					bottom: 12px;
+				    font-family: "Nexa-Light";
+				    font-size: 23px;
+				    position: relative;
+				    text-transform: uppercase;
+			    }
+			    a:hover{
+			    	font-family: "Nexa-Bold";
+			    }
+			}
+			p.descripcion{
+				line-height: 0.8;
+				a{
+					font-family: 'Nexa-Light';
+					font-size: 10px;
+					color: #565a5c;
+					position: relative;
+				    top: -10px;
+				    text-decoration: none;
+			    }
+			}
+		}
+		.reservas{
+		    padding: 0;
+		    position: relative;
+		    text-align: center;
+			img{
+				border-right: 1px solid #ff5a5e;
+			    float: left;
+			    margin-top: 23px;
+			    padding: 2px 10px 2px 7px;
+			}
+			.search{
+				background-color: #ff5a5e;
+			    color: #fff;
+			    display: block;
+			    float: right;
+			    font-family: "Nexa-Bold";
+			    font-size: 12px;
+			    height: 22px;
+			    margin-top: 15px;
+			    padding-top: 3px;
+			    width: 105px;
+			    -webkit-transition: all 0.3s ease;
+			    -moz-transition: all 0.3s ease;
+			    -o-transition: all 0.3s ease;
+			     -ms-transition:  all 0.3s ease;
+			    transition: all 0.3s ease;
+			}
+			.search:hover{
+				background-color: #22c9d3;
+			}
+			.bedsprice{
+				float: right;
+				margin-right: 3px;
+				margin-top: 15px;
+				.beds{
+					color: #ff5a5e;
+					font-family: "Nexa-Bold";
+					font-size: 11px;
+				}
+				.price{
+					color: #ff5a5e;
+					font-family: 'Nexa-Light';
+					font-size: 11px;
+					display: block;
+				}
+			}
+		}
+	}
+}
+// PROMOS LIST - GUOU
+#promosList{
+    clear: both;
+	font-family: "Nexa-Light";
+	padding-top: 15px;
+	.row-fluid:nth-child(1){
+		.promo{
+			padding: 20px 0 !important;
+		}
+	}
+	.banner{
+		width: 32.5%;
+	}
+	.bannerPromoWrapper{
+		padding: 0;
+		margin: 0 0 15px 0;
+		width: 343px;
+		height: 343px;
+		overflow: hidden;
+		.bannerPromo{
+			cursor: pointer;
+		}
+	}
+	#bannerPrincipalPromosWrapper{
+		width: 100% !important;
+		left: 15px;
+    	position: relative;
+		h1.promoBannerTitle{
+			color: rgba(255, 255, 255, 0.9);
+			font-family: "Nexa-Light";
+			font-size: 32px;
+			line-height: 1.3em;
+			margin-bottom: 15px;
+			margin-top: 14%;
+			text-align: center;
+			text-transform: uppercase;
+			img#cuore{
+				width: 120px;
+				margin: 0 auto 25px;
+				position: relative;
+			}
+		}
+		.overlay,.expand{cursor: pointer;}
+	}
+	.row:first-child{
+		border-top: 0px !important;
+	}
+	.row{
+	    border-top: 1px dotted #565a5c;
+		margin: 0;
+	}
+	.banner{
+	    padding: 20px 18px 20px 0;
+	    text-align: center;
+	    img{
+	        width: 100%;
+	    }
+	}
+	.uno{
+	    padding: 20px 18px 20px 0;
+	}
+	.dos{
+	    padding: 20px 9px 20px 9px;
+	}
+	.tres{
+	    padding: 20px 0 20px 18px;
+	}
+	.promo{
+		img{
+		    width: 100%;
+		}
+		h1{
+		    font-size: 25px;
+		    text-transform: uppercase;
+		    font-weight: bold;
+		}
+		p{
+		    font-size: 13px;
+		    text-transform: uppercase;
+		}
+		.terms{
+		    padding: 0;
+            a{
+                border-top: 1px solid #FF5A5E;
+                padding: 5px 20px 0 0;
+                color: #FF5A5E;
+                text-transform: uppercase;
+                font-size: 12px;
+            }
+            .htmlContainer{
+                display: none;
+            }
+            .popover{
+                min-width: 330px;
+                max-width: 400px;
+                box-shadow: none;
+                -webkit-box-shadow: none;
+                background-color: #FF5A5E;
+                border: none;
+                color: #FFF;
+                font-family: "Nexa-Light";
+                border-radius: 0;
+                h1{
+                    font-size: 20px;
+                    text-align: center;
+                    margin: 0;
+                    padding: 7px 0;
+                    border-bottom: 1px dotted #FFF;
+                }
+                ul{
+                    padding: 10px 0 10px 15px;
+                    margin: 0;
+                }
+                .cerrar{
+                    position: absolute;
+                    top: 15px;
+                    right: 15px;
+                    padding: 0;
+                    img{
+                        width: auto;
+                    }
+                }
+                .popover-content {
+                    padding: 20px 30px;
+                }
+            }
+            .popover.right > .arrow:after{
+                border-right-color: #FF5A5E;
+            }
+            .popover.right>.arrow {
+                border-right: none;
+            }
+		}
+	}
+}
+// BOX FORMS - GUOU
+.box-gris{
+    background-color: #F2F2F2;
+    padding: 50px 80px !important;
+    margin: 0 0 25px 0;
+    overflow: auto;
+    .fila{
+        margin-bottom: 20px;
+        width: 100%;
+        float: left;
+        font-style: italic;
+        font-family: Arial;
+        font-size: 1em;
+        color: #565a5c;
+        .uno{
+            padding-right: 10px;
+        }
+        .tres{
+            padding-left: 10px;
+        }
+    }
+    .misti-form{
+        width: 100%;
+        border: none;
+        height: 30px;
+        padding: 0 0 0 1em;
+    }
+    .btn-custom{
+        height: 30px;
+        width: 100%;
+        padding: 4px 12px;
+        border-radius: 0;
+        background-color: #FF5A5E;
+        color: #FFF;
+        font-style: italic;
+        font-family: Arial;
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .btn-custom:hover{
+    	background-color: #22c9d3;
+    	-webkit-transition: all 0.3s ease;
+	    -moz-transition: all 0.3s ease;
+	    -o-transition: all 0.3s ease;
+	    transition: all 0.3s ease;
+    }
+    select{
+        padding-left: 0.75em !important;
+    }
+    ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        color:    #565a5c;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+       color:    #565a5c;
+       opacity:  1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+       color:    #565a5c;
+       opacity:  1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+       color:    #565a5c;
+    }
+}
+// FRANQUICIAS - GUOU
+#formFran{
+    font-family: "Nexa-Light";
+    div{
+        padding: 0;
+    }
+    .uno{
+        padding-right: 20px;
+    }
+    .dos{
+        padding: 0 10px;
+    }
+    .tres{
+        padding-left: 20px;
+        .fila{
+            margin-bottom: 15px; // .fila height - 5px
+        }
+    }
+    .misti-form{
+        .formSexo{
+            display: table;
+            height: 30px;
+            .sexo{
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+                .misti-form{
+                    padding: 0;
+                    .first{
+                        margin: 0 10px 0 0;
+                    }
+                    .last{
+                        margin: 0 0 0 10px;
+                    }
+                }
+            }
+        }
+    }
+    .etiqueta{
+        border: none;
+        height: 30px;
+        text-align: center;
+        padding-right: 10px;
+        display: table;
+        div{
+            height: 100%;
+            background-color: #FFF;
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+    .fecha{
+        text-align: center;
+        padding: 0;
+    }
+    .fecha-1{
+        padding-right: 5px;
+    }
+    .fecha-2{
+        padding: 0 5px;
+    }
+    .fecha-3{
+        padding-left: 5px;
+    }
+    .textarea{
+        height: 180px; // ( .misti-form height x 4 ) + ( .fila margin-bottom x 3 )
+        padding-top: 4px;
+    }
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0; 
+    }
+    .slogan{
+        text-align: center;
+        h1{
+            color: #00BCAA;
+            border-bottom: 1px dotted #565a5c;
+            font-size: 27px;
+            padding-bottom: 5px;
+            margin: 0 0 30px;
+        }
+    }
+    .contenido{
+        padding-bottom: 20px;
+        border-bottom: 1px dotted #565a5c;
+        margin-bottom: 40px;
+        p{
+            text-align: justify;
+            line-height: 1.2em;
+        }
+        hr{
+            border-top: 1px solid #00BCAA;
+        }
+        h2{
+            text-align: center;
+            background-color: #00BCAA;
+            padding: 7px 0 5px;
+            margin: 0 0 15px;
+            color: #FFF;
+            font-size: 23px;
+        }
+        h3{
+            text-align: center;
+            padding: 0 0 0 25px;
+            margin: 15px 0 0 0;
+            color: #00BCAA;
+            font-size: 23px;
+            line-height: 33px;
+            background: url("../images/up-arrow-franq.png") 25% no-repeat;
+        }
+        h4{
+            text-align: center;
+            padding: 0;
+            margin: 6px 0 0 0;
+            color: #00BCAA;
+            font-size: 13px;
+        }
+        .box {
+            border: 3px solid #00bcaa;
+            margin: 0 10px 0 0;
+            ul{
+                margin: 0;
+                padding: 20px;
+            }
+            li{
+                list-style-type: none;
+                text-transform: uppercase;
+                color: #00bcaa;
+                margin: 5px 0;
+            }
+        }
+        .punta{
+            position: absolute;
+            right: -1px;
+            bottom: 35px;
+        }
+        .mapa{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .boxes{
+        margin-bottom: 60px;
+        .box{
+            padding: 10px 20px !important;
+            margin-bottom: 10px;
+            border: 1px solid #666;
+            background-position: center center;
+            background-repeat: no-repeat;
+            min-height: 187px;
+        }
+        h1{
+            font-size: 20px;
+            text-transform: uppercase;
+            margin: 10px 0 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #666;
+        }
+        p{
+            margin: 0;
+            text-align: justify;
+        }
+        ul{
+            margin: 0;
+            padding-left: 20px;
+        }
+    }
+}
+// CONTACTO - GUOU
+#formContacto{
+    font-family: "Nexa-Light";
+    div{
+        padding: 0;
+    }
+    .uno{
+        padding-right: 20px;
+    }
+    .dos{
+        padding: 0 10px;
+    }
+    .tres{
+        padding-left: 20px;
+        .fila{
+            margin-bottom: 37px; // .fila height - 5px
+        }
+    }
+    .textarea{
+        height: 80px; // ( .misti-form height x 2 ) + ( .fila margin-bottom x 1 )
+        padding-top: 4px;
+    }    
+    input[type=date]::-webkit-inner-spin-button, 
+    input[type=date]::-webkit-outer-spin-button { 
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0; 
+    }
+    .titulo-central{
+        text-align: center;
+        h1{
+            color: #FF5A5E;
+            border-bottom: 1px dotted #565a5c;
+            font-size: 27px;
+            padding-bottom: 5px;
+            margin: 0 0 30px;
+        }
+    }
+    .reserva{
+        padding-bottom: 40px;
+        border-bottom: 1px dotted #565a5c;
+        .tel{
+        	font-size: 11px !important;
+        }
+        .uno{
+            .punta{
+                position: absolute;
+                top: 0;
+                left: 35px;
+            }
+            .box{
+                margin-top: 20px;
+                padding: 10px;
+                border: 3px solid #FF5A5E;
+                text-align: center;
+                text-transform: uppercase;
+                color: #FF5A5E;
+                h2{
+                    font-size: 23px;
+                    font-weight: bold;
+                    margin-top: 10px;
+                }
+                h3{
+                    font-size: 17px;
+                }
+                .whatsapp{
+                    float: left;
+                    padding-left: 5px;
+                }
+                h4{
+                    padding: 4px 0 0 0;
+                }
+            }
+        }
+        .dos{
+            padding-right: 0;
+            .box{
+                overflow: auto;
+                margin-top: 20px;
+                border: 3px solid #666666;
+                padding: 28px;
+                .flag{
+                    float: left;
+                    margin-right: 10px;
+                }
+                p{
+                    margin: 0;
+                }
+                .fila{
+                    margin-bottom: 37px;
+                }
+                .column .fila:last-child{
+            		margin: 0px !important;
+            	}
+            }
+        }
+    }
+    .hostels{
+        margin: 30px 0 60px 0;
+        .uno{
+            padding-right: 40px;
+            clear: left;
+        }
+        .dos{
+            padding: 0 20px;
+        }
+        .tres{
+            padding-left: 40px;
+        }
+        h2{
+            font-size: 24px;
+            text-transform: uppercase;
+            margin: 0 0 25px 0;
+            padding: 7px 0 0 50px;
+            height: 37px;
+        }
+        p{
+            font-size: 11px;
+            text-transform: uppercase;
+            margin: 0 0 25px;
+            white-space: nowrap;
+        }
+        .first{
+            margin-right: 5px;
+        }
+        .separador{
+            border-bottom: 1px dotted #565A5C;
+            margin: 30px 0;
+        }
+    }
+    .img{
+        margin: 0 0 80px 0;
+        width: 100%;
+        .overlay a.expand{
+            top: 60px;
+        }
+        a.expand{
+            height: auto;
+            width: auto;
+            position: relative;
+        }
+    }
+    .img.hover{
+        .overlay a.expand{
+            top: 60px;
+        }
+    }
+}
+
+//HOSTELS
+
+.ilha{
+    h2{
+        background: url('../images/hostel-ilha.png') no-repeat left;
+        color: #CE2184;
+    }
+    .first{
+        color: #CE2184;
+    }
+    .box-custom{
+        border: 1px solid #CE2184;
+        color: #CE2184;
+    }
+    .back{
+        background-color: #CE2184;
+    }
+    .flecha{
+        background: url('../images/arrow-ilha.png') no-repeat top center;
+    }
+}
+.ipanema{
+    h2{
+        background: url('../images/hostel-ipanema.png') no-repeat left;
+        color: #ce2184;
+    }
+    .first{
+        color: #ce2184;
+    }
+    .box-custom{
+        border: 1px solid #ce2184;
+        color: #ce2184;
+    }
+    .back{
+        background-color: #ce2184;
+    }
+    .flecha{
+        background: url('../images/arrow-suites.png') no-repeat top center;
+    }
+}
+
+.bota{
+    h2{
+        background: url('../images/hostel-bota.png') no-repeat left;
+        color: #41AACE;
+    }
+    .first{
+        color: #41AACE;
+    }
+    .box-custom{
+        border: 1px solid #41AACE;
+        color: #41AACE;
+    }
+    .back{
+        background-color: #41AACE;
+    }
+    .flecha{
+        background: url('../images/arrow-bota.png') no-repeat top center;
+    }
+}
+.leme{
+    h2{
+        background: url('../images/hostel-leme.png') no-repeat left;
+        color: #266B33;
+    }
+    .first{
+        color: #266B33;
+    }
+    .box-custom{
+        border: 1px solid #266B33;
+        color: #266B33;
+    }
+    .back{
+        background-color: #266B33;
+    }
+    .flecha{
+        background: url('../images/arrow-leme.png') no-repeat top center;
+    }
+}
+.copa{
+    h2{
+        background: url('../images/hostel-copa.png') no-repeat left;
+        color: #97BF0D;
+    }
+    .first{
+        color: #97BF0D;
+    }
+    .box-custom{
+        border: 1px solid #97BF0D;
+        color: #97BF0D;
+    }
+    .back{
+        background-color: #97BF0D;
+    }
+    .flecha{
+        background: url('../images/arrow-copa.png') no-repeat top center;
+    }
+}
+.rooms{
+    h2{
+        background: url('../images/hostel-rooms.png') no-repeat left;
+        color: #1CA53D;
+    }
+    .first{
+        color: #1CA53D;
+    }
+    .box-custom{
+        border: 1px solid #1CA53D;
+        color: #1CA53D;
+    }
+    .back{
+        background-color: #1CA53D;
+    }
+    .flecha{
+        background: url('../images/arrow-rooms.png') no-repeat top center;
+    }
+}
+.house{
+    h2{
+        background: url('../images/hostel-house.png') no-repeat left;
+        color: #00A096;
+    }
+    .first{
+        color: #00A096;
+    }
+    .box-custom{
+        border: 1px solid #00A096;
+        color: #00A096;
+    }
+    .back{
+        background-color: #00A096;
+    }
+    .flecha{
+        background: url('../images/arrow-house.png') no-repeat top center;
+    }
+}
+.rio{
+    h2{
+        background: url('../images/hostel-rio.png') no-repeat left;
+        color: #228BAF;
+    }
+    .first{
+        color: #228BAF;
+    }
+    .box-custom{
+        border: 1px solid #228BAF;
+        color: #228BAF;
+    }
+    .back{
+        background-color: #228BAF;
+    }
+    .flecha{
+        background: url('../images/arrow-rio.png') no-repeat top center;
+    }
+}
+.suites{
+    h2{
+        background: url('../images/hostel-suites.png') no-repeat left;
+        color: #ce2039;
+    }
+    .first{
+        color: #ce2039;
+    }
+    .box-custom{
+        border: 1px solid #ce2039;
+        color: #ce2039;
+    }
+    .back{
+        background-color: #ce2039;
+    }
+    .flecha{
+        background: url('../images/arrow-suites.png') no-repeat top center;
+    }
+}
+
+//GRUPOS
+#grupos{
+    font-family: "Nexa-Light";
+    text-align: justify;
+    font-size: 13px;
+    .hostels{
+        background-color: #F2F2F2;
+        margin-top: 50px;
+        padding: 15px;
+        margin-bottom: 20px;
+        overflow: auto;
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 24px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #565a5c;
+            margin-bottom: 50px;
+        }
+        .hostel{
+            float: left;
+            margin-bottom: 30px;
+            border-right: 1px solid #565a5c;
+            h2{
+                font-size: 24px;
+                text-transform: uppercase;
+                margin: 0;
+                padding: 7px 7px 7px 35px;
+                background-size: 30px;
+            }
+        }
+        .hostel:nth-last-child(2){
+    		margin-bottom: 0px !important;
+    	}
+        .dir{
+            float: left;
+            margin-left: 10px;
+            padding-top: 7px;
+            line-height: 24px;
+        }
+    }
+    .content{
+        h1{
+            margin: 0 0 20px;
+            text-align: center;
+            padding-bottom: 5px;
+            border-bottom: 1px dotted #565a5c;
+            font-size: 27px;
+            color: #00bcaa;
+        }
+        hr{
+            border-top: 1px solid #00BCAA;
+        }
+        ul{
+            margin: 0;
+            padding-left: 20px;
+        }
+        h3{
+            color: #00bcaa;
+        }
+        .recuadro{
+            color: #fff;
+            background-color: #00bcaa;
+            text-align: center;
+            padding: 7px 0 5px;
+            font-size: 23px;
+            margin-bottom: 15px;
+        }
+        .banner{
+            width: 100%;
+            margin: 10px 10px 0;
+        }
+        .grupos{
+            h3{
+                margin: 0 0 25px;
+            }
+            p{
+                margin: 0 0 19px;
+            }
+            .banner{
+                margin: 0;
+            }
+        }
+        .alojamiento{
+            border: 5px solid #00bcaa;
+            padding: 20px 15px;
+            margin: 35px 0 65px;
+            img{
+                float: right;
+                margin-left: 15px;
+            }
+            h4{
+                padding-bottom: 5px;
+                border-bottom: 1px solid #565a5c;
+                overflow: auto;
+                text-transform: uppercase;
+                font-size: 14px;
+            }
+            p{
+                font-size: 12px;
+            }
+            h2{
+                font-size: 27px;
+                color: #00bcaa;
+                text-align: center;
+                margin-bottom: 35px;
+            }
+            .box {
+                margin-bottom: 5px;
+                height: 155px;
+            }
+        }
+        blockquote{
+            border: 0;
+            font-size: 25px;
+            color: #00bcaa;
+            text-align: center;
+            margin-bottom: 50px;
+            p:before{
+                content: "\"";
+                font-size: 40px;
+                font-weight: bold;
+                padding-right: 10px;
+            }
+            p:after{
+                content: "\"";
+                font-size: 40px;
+                font-weight: bold;
+                padding-left: 10px;
+            }
+            br{
+                display: none;
+            }
+            p{
+                line-height: 35px;
+            }
+            footer:before {
+                content: none;
+            }
+        }
+    }
+    .help{
+        overflow: auto;
+        padding: 10px 0;
+        color: #fff;
+        background-color: #FF5A5E;
+        text-align: center;
+        div:last-child{
+            border-left: 1px solid #fff;
+            font-weight: bold;
+        }
+    }
+    .textarea{
+        height: 180px; // ( .misti-form height x 4 ) + ( .fila margin-bottom x 3 )
+        padding-top: 4px;
+    }
+    input[type=date]::-webkit-inner-spin-button, 
+    input[type=date]::-webkit-outer-spin-button { 
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0; 
+    }        
+}
+
+//CUSTOM PAGE - GUOU
+
+#custom{
+    font-family: "Nexa-Light";
+    text-align: justify;
+    font-size: 13px;
+    .col-md-4{
+    	padding-left: 0;
+    }
+    .col-md-8{
+    	padding-right: 0;
+    }
+    .telefono{
+        margin-bottom: 50px;
+        position: relative;
+        .punta{
+            position: absolute;
+            bottom: -20px;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+        }
+        .box{
+            margin-top: 10px;
+            padding: 10px;
+            border: 3px solid #FF5A5E;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FF5A5E;
+            h2{
+                font-size: 19px;
+                font-weight: bold;
+                margin-top: 10px;
+            }
+            h3{
+                font-size: 14px;
+            }
+            .whatsapp{
+                float: left;
+                padding-left: 5px;
+            }
+            h4{
+                padding: 4px 0 0 0;
+                font-size: 16px;
+            }
+        }
+    }
+    .hostels{
+        background-color: #F2F2F2;
+        margin-top: 50px;
+        padding: 15px;
+        margin-bottom: 20px;
+        overflow: auto;
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 24px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #565a5c;
+            margin-bottom: 50px;
+        }
+        .hostel{
+            float: left;
+            margin-bottom: 30px;
+            padding: 0;
+            text-align: center;
+            position: relative;
+            .flecha{
+                height: 6px;
+                width: 93%;
+                position: absolute;
+                bottom: 28px;
+            }
+            .circulo{
+                border-radius: 25px;
+                width: 50px;
+                height: 50px;
+                margin: 0 auto 15px;
+                p{
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 23px;
+                    line-height: 50px;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+            p{
+                font-size: 10px;
+                margin: 0;
+                padding: 7px 0;
+                text-transform: uppercase;
+            }
+        }
+        .hostel:nth-last-child(2){
+    		margin-bottom: 0px !important;
+    	}
+    	.uno{
+            padding-right: 6px;
+        }
+        .dos{
+            padding: 0 3px;
+        }
+        .tres{
+            padding-left: 6px;
+        }
+    }
+    .content{
+        margin: 50px 0;
+        p{
+        	line-height: 25px;
+        }
+        strong{
+        	color: #00BCAA;
+        	font-size: 16px;
+        	margin: 20px 0;
+        }
+        h2{
+            margin: 0 0 20px;
+            text-align: center;
+            padding-bottom: 5px;
+            border-bottom: 1px dotted #565a5c;
+            font-size: 27px;
+            color: #00bcaa;
+        }
+        hr{
+            border-top: 1px solid #00BCAA;
+        }
+        ul{
+            margin: 0;
+            padding-left: 20px;
+        }
+        h3{
+            color: #00bcaa;
+        }
+        .recuadro{
+            color: #fff;
+            background-color: #00bcaa;
+            text-align: center;
+            padding: 7px 0 5px;
+            font-size: 23px;
+            margin-bottom: 15px;
+        }
+        .banner{
+            width: 100%;
+            margin: 10px 10px 0;
+        }
+    }
+    .help{
+        overflow: auto;
+        padding: 10px 0;
+        background-color: #FF5A5E;
+        text-align: center;
+        a{
+            color: #fff;
+        }
+        div:last-child{
+            border-left: 1px solid #fff;
+            font-weight: bold;
+        }
+    }
+    .img{
+        margin: 20px 0;
+        width: 100%;
+        .img-responsive{
+            width: 100%;
+        }
+        .overlay a.expand{
+            top: 110px;
+        }
+        .overlay a.expand-big{
+            top: 0;
+            img{
+                width: 100px;
+                height: 100px;
+                display: block;
+                margin: 23% auto;
+            }
+        }
+        .overlay a.expand-big2{
+            top: 0;
+            img{
+                width: 100px;
+                height: 100px;
+                display: block;
+                margin: 33% auto;
+            }
+        }
+        a.expand{
+            height: auto;
+            width: auto;
+            position: relative;
+        }
+    }
+    .img.hover{
+        .overlay a.expand{
+            top: 110px;
+        }
+    }
+    .effects{
+        padding: 0;
+    }
+    .btn-download{
+		background-color: #ff5a5e;
+	    color: #fff;
+	    font-family: "Nexa-Bold";
+	    font-size: 12px;
+	    height: 22px;
+	    padding-top: 2px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+	}
+	.btn-download:hover{
+		background-color: #e01709;
+	}
+	.mapas{
+	    width: 100%;
+	    margin-bottom: 15px;
+	}
+	h3{
+	    margin-bottom: 20px;
+	}
+	.borde{
+	    padding-bottom: 5px;
+	    margin-bottom: 15px;
+        border-bottom: 1px dotted #565a5c;
+	}
+	article{
+	    margin-bottom: 20px;
+        padding-bottom: 20px;
+        header{
+            padding-top: 5px;
+            h1{
+                padding-bottom: 5px;
+                border-bottom: 1px solid #565a5c;
+                overflow: auto;
+                text-transform: uppercase;
+                font-size: 15px;
+                color: #666;
+                font-weight: 600;
+                margin: 3px 0 10px 0;
+            }
+        }
+	}
+	.navigation{
+	    list-style:none; font-size:12px;
+        text-align: center;
+        ul{
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+	    li{
+	        display:inline;
+	        a{
+	            color: #6b6b6b;
+	            display:block;
+	            float:left;
+	            padding:3px 9px;
+	            margin-right:7px;
+            }
+            span.current{
+                display:block;
+                float:left;
+                padding:3px 9px;
+                margin-right:7px;
+                background-color: #00bcaa;
+                color: #fff;
+                border-radius: 50%;
+            }
+            span.dots{
+                display:block;
+                float:left;
+                padding:3px 9px;
+                margin-right:7px;
+            }
+            .next{
+                margin: 0;
+                padding-right: 0;
+            }
+        }
+    }
+    .mistitours{
+        h2{
+            text-align: left;
+            text-transform: uppercase;
+            span{
+                text-transform: lowercase;
+                font-size: 19px;
+            }
+        }
+        .btn-download{
+            text-transform: uppercase;
+            float: right;
+            margin-top: 3px;
+        }
+        .row{
+            margin: 0 -3px 35px;
+        }
+        .accordion-toggle{
+            cursor: pointer;
+        }
+        .box{
+            position: relative;
+            height: 500px;
+            border: 2px solid transparent;
+            background-clip: padding-box;
+            padding: 0;
+            .title{
+                hr{
+                    margin: 10px 95px 10px 95px;
+                    border: 2px solid #fff;
+                }
+                h4{
+                    color: #fff;
+                    text-align: center;
+                    font-size: 25px;
+                    margin-top: 0;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+            }
+            .main-text{
+                p{
+                    color: #f9fafa;
+                    text-align: justify;
+                    font-size: 12px;
+                    line-height: 15px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+            }
+            .foot{
+                position: absolute;
+                bottom: 10px;
+                width: 100%;
+                hr{
+                    margin: 10px;
+                    border: 1px solid #f9fafa;
+                }
+                .izq{
+                    border-right: #f9fafa dotted 2px;
+                }
+                .frase{
+                    font-weight: bold;
+                }
+                p{
+                    font-size: 9px;
+                    text-align: center;
+                    line-height: 9px;
+                    color: #f9fafa;
+                }
+                .col-md-6{
+                    padding: 0 10px;
+                }
+                .comentario{
+                    text-align: center;
+                    font-size: 12px;
+                    font-weight: bold;
+                    line-height: 14px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+                h6{
+                    font-size: 10px;
+                    font-weight: bold;
+                    color: #f9fafa;
+                    margin-top: 0;
+                    margin-bottom: 3px;
+                }
+                ul{
+                    padding-left: 0px;
+                }
+                li{
+                    font-size: 9px;
+                    color: #f9fafa;
+                    height: 100%;
+                    width: 100%;
+                    list-style-position: inside;
+                }
+            }
+            .img{
+                height: 110px;
+                margin: 0;
+            }
+        }
+        .uno{
+            clear: left;
+        }
+    }
+    .mistiweek{
+        .wrapper-article-mistiweek {
+            margin: 8px 0 8px;
+            overflow: hidden;
+            padding: 0;
+        }
+        .img-mistiweek {
+            padding: 0;
+        }
+        .dia-mistiweek {
+            position: absolute;
+            top: 16px;
+            color: #fff;
+            font-size: 13px;
+            padding: 1px 10px;
+            text-transform: uppercase;
+            min-width: 115px;
+            text-align: center;
+            .triangle {
+                width: 15px;
+                height: 14px;
+                display: block;
+                position: absolute;
+                right: -8px;
+                top: 3px;
+                -webkit-transform: rotate(-45deg);
+                -moz-transform: rotate(-45deg);
+                -ms-transform: rotate(-45deg);
+                -o-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+            }
+        }
+        .content-mistiweek {
+            padding: 10px;
+            max-height: 125px;
+            overflow-y: hidden;
+            h3 {
+                margin: 0;
+                font-size: 18px;
+                color: #fff;
+                text-transform: uppercase;
+            }
+            hr {
+                margin: 6px 0;
+                display: block;
+                border: 1px solid #fff;
+                width: 40px;
+            }
+            p {
+                font-size: 12px;
+                font-family: arial;
+                color: #fff;
+                line-height: 14px;
+            }
+        }
+    }
+}
+
+.wpcf7-form{
+	.opcoes-cargos,.opcoes-idiomas{
+		.wpcf7-list-item{
+			display: block;
+		}
+	}
+	.mensaje{
+		textarea{
+			height: 150px;
+		}
+	}
+} 
+
+/* Correccion posicionamiento banners HOME P Diaz */
+.bannersSecundarios:first-child{
+	margin-right: 3% !important;
+}
+.bannersSecundarios:nth-child(2){
+	margin-right: 0% !important;
+}
+.bannersSecundarios:last-child{
+	margin-left: 3% !important;
+	margin-top: 30px;
+}
+
+/* Correcciones al Datepicker] */
+.datepicker{
+	font-family: Arial;
+	font-size: 0.9em;
+	font-style: italic;
+	td.day{
+		color: #565a5c;
+	}
+}
+/* Saco borde verde horrible en el ok de mensajes enviados de form contact */
+div.wpcf7-mail-sent-ok{
+	border: 0 !important;
+}
+/* Esconder espacio en blanco que provoca el codigo de remarketing de google */
+iframe[name='google_conversion_frame'] { 
+    height: 0 !important;
+    width: 0 !important; 
+    line-height: 0 !important; 
+    font-size: 0 !important;
+    margin-top: -13px;
+    float: left;
+}
+
+
+/* video.css */
+/* Video player */
+#videoPie .video-js { 
+	cursor: pointer;
+}
+.video-js { 
+	background-color: transparent !important;
+	}
+.vjs-poster{
+	background-color: #fff !important;
+}
+.vjs-control-bar{
+	display: none !important;
+} 
+.vjs-default-skin .vjs-big-play-button{
+	background-color: rgba(240, 92, 96, 0);
+	cursor: pointer;
+	display: block;
+	height: 100%;
+	position: absolute;
+	vertical-align: middle;
+	width: 100%;
+	z-index: 500;
+	font-size: 0;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.vjs-default-skin .vjs-big-play-button:hover{
+	background-color: rgba(240, 92, 96, 0.7);
+}
+video{
+	background-size: 100% 100%;
+    z-index: 1;
+}
+.video-js {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;    
+}
+
+.vjs-fullscreen {padding-top: 0px}
+.video-js:after {
+    content: '.';
+    display: block;
+    position: relative;
+    padding: 33.5% 0 0 0; /* (height/width)*100%, eg. 56.25% for 16:9 75% for 4:3 */
+    margin: 0 0 0 -100%;
+    visibility: hidden;
+    height: 0; 
+}
+
+#videoBanner, #videoBannerHeader{
+	z-index: 0;
+	position: relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#headervideo{
+    padding: 0 !important;
+    overflow: hidden !important;
+    .video-js { 
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .video-js:after{
+        content: '.';
+        display: block;
+        position: relative;
+        visibility: hidden;
+        padding: 40% 0 0 0; /* (height/width)*100%, eg. 56.25% for 16:9 75% for 4:3 */
+        height: 0;    
+    }
+    .video-js .vjs-tech {//HOME VIDEO
+        height: 97%;
+        width: 103%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        }
+    #idiomas{
+        position: relative;
+        z-index: 9999;
+    }
+    #primeraLinea{
+        position: relative;
+        z-index: 9998;
+    }
+    #fijo{
+        position: relative;
+        z-index: 9997;
+    }
+}
+
+.vjs-waiting {
+  visibility: hidden;
+  background: transparent;
+}
+.vjs-loading-spinner {
+  display: none !important;
+}
+
+
+/* topMenu.css */
+#topMenu,
+#topMenu ul,
+#topMenu li,
+#topMenu a {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+
+#topMenu ul li.menu-item-has-children:hover > a {
+	padding-bottom: 13px;
+	padding-top: 13px;
+	top: -1px;
+	z-index: 999;
+}
+#topMenu ul li.menu-item-has-children:hover > ul,
+#topMenu ul li.menu-item-has-children:hover > div {
+	display: block;
+}
+
+#topMenu ul li > ul,
+#topMenu ul li > div {
+	display: none;
+	width: auto;
+	position: absolute;
+	top: 20px;
+	padding: 10px 3px;
+	z-index: 999;
+	background-image: url(https://www.elmistihostels.com/wp-content/themes/El-Misti/img/borde-sub-menu.png);
+	background-repeat: no-repeat;
+}
+#topMenu ul li > ul {
+	width: 120px;
+}
+#topMenu ul li > ul li,
+ul.sub-menu {
+	display: block;
+	list-style: none;
+	padding: 10px 0;
+	margin: 0;
+	position: relative;
+}
+ul.sub-menu {
+	li{
+		text-align: left;
+		padding-left: 0 !important;
+		border-right: 0 !important;
+		margin-top: 4px !important;
+		a{
+			text-transform: uppercase;
+			font-size: 12px !important;
+		}
+		a:hover{
+			padding-left: 10px;
+		}
+	}
+}
+#header2{
+	div#topMenu{
+		li.menu-item-has-children{
+			div.grid-custom{
+				a{
+					text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+				}
+			}
+		}
+	}
+}
+
+nav.navbar-default{
+		background-color: rgba(255, 255, 255, 0);
+		border: 0;
+		clear: none;
+		margin-bottom: 0;	
+} 			

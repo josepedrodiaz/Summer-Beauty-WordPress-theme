@@ -1,0 +1,104 @@
+/* Video player */
+#videoPie .video-js { 
+	cursor: pointer;
+}
+.video-js { 
+	background-color: transparent !important;
+	}
+.vjs-poster{
+	background-color: #fff !important;
+}
+.vjs-control-bar{
+	display: none !important;
+} 
+.vjs-default-skin .vjs-big-play-button{
+	background-color: rgba(240, 92, 96, 0);
+	cursor: pointer;
+	display: block;
+	height: 100%;
+	position: absolute;
+	vertical-align: middle;
+	width: 100%;
+	z-index: 500;
+	font-size: 0;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.vjs-default-skin .vjs-big-play-button:hover{
+	background-color: rgba(240, 92, 96, 0.7);
+}
+video{
+	background-size: 100% 100%;
+    z-index: 1;
+}
+.video-js {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;    
+}
+
+.vjs-fullscreen {padding-top: 0px}
+.video-js:after {
+    content: '.';
+    display: block;
+    position: relative;
+    padding: 33.5% 0 0 0; /* (height/width)*100%, eg. 56.25% for 16:9 75% for 4:3 */
+    margin: 0 0 0 -100%;
+    visibility: hidden;
+    height: 0; 
+}
+
+#videoBanner, #videoBannerHeader{
+	z-index: 0;
+	position: relative;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#headervideo{
+    padding: 0 !important;
+    overflow: hidden !important;
+    .video-js { 
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .video-js:after{
+        content: '.';
+        display: block;
+        position: relative;
+        visibility: hidden;
+        padding: 40% 0 0 0; /* (height/width)*100%, eg. 56.25% for 16:9 75% for 4:3 */
+        height: 0;    
+    }
+    .video-js .vjs-tech {//HOME VIDEO
+        height: 97%;
+        width: 103%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        }
+    #idiomas{
+        position: relative;
+        z-index: 9999;
+    }
+    #primeraLinea{
+        position: relative;
+        z-index: 9998;
+    }
+    #fijo{
+        position: relative;
+        z-index: 9997;
+    }
+}
+
+.vjs-waiting {
+  visibility: hidden;
+  background: transparent;
+}
+.vjs-loading-spinner {
+  display: none !important;
+}
+

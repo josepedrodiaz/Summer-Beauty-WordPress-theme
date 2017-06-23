@@ -1,0 +1,1046 @@
+/* Definiciones generales tipografía etc */
+
+/* Nueva Nexa */
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3105b9");
+
+  
+@font-face {font-family: 'Nexa-Bold';src: url('webfonts/3105B9_0_0.eot');src: url('webfonts/3105B9_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3105B9_0_0.woff2') format('woff2'),url('webfonts/3105B9_0_0.woff') format('woff'),url('webfonts/3105B9_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Nexa-Light';src: url('webfonts/3105B9_1_0.eot');src: url('webfonts/3105B9_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3105B9_1_0.woff2') format('woff2'),url('webfonts/3105B9_1_0.woff') format('woff'),url('webfonts/3105B9_1_0.ttf') format('truetype');}
+ 
+
+
+/* Nexa Light 
+@font-face {
+  font-family: 'Nexa-Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Nexa-Light'), url('Nexa-Light.ttf') format('opentype');
+}
+*/
+/* Nexa Bold 
+@font-face {
+  font-family: 'Nexa-Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Nexa-Bold'), url('Nexa-Bold.ttf') format('opentype');
+}
+*/
+
+
+/* Smoothing */
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-feature-settings: "kern", "liga" 0, "calt" 0;
+    font-feature-settings: "kern", "liga" 0, "calt" 0;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+    font-family: 'Nexa-Light';
+    outline: 0;
+
+}
+
+/* Estilos generales para todos los dispositivos */
+a, a:hover{
+	text-decoration: none;
+}
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+.text-align-center{
+	text-align: center;
+}
+#header{
+background-size: cover;
+}
+#destinos, #llegada, #partida,
+#destinos-scroll, #llegada-scroll, #partida-scroll{
+	cursor: pointer;
+}
+
+
+/* chat */
+#lz_overlay_chat{
+	height: 30px;
+}
+html body div#lz_overlay_chat 
+div#lz_chat_overlay_main.lz_chat_base.notranslate div 
+div.lz_overlay_chat_gradient div#lz_chat_overlay_text.unselectable.unmovable{
+	font-family: 'Nexa-Light' !important;
+	font-size: 13px !important;
+}
+
+#lz_eye_catcher{
+  display: none !important;
+}
+
+
+
+/*****
+IPADS -Landscpae
+*****/
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape) { 
+	
+	#header{
+		#logo{
+			margin: -20px 24px 0 !important;
+			padding: 3em 0 0 !important;
+		}
+	}
+	#headervideo{
+		#logo{
+			margin: 60px 0 0 30px !important
+		}		
+		#primeraLinea{
+			margin-bottom: 155px !important;
+			bottom: 50px !important;
+			#topMenu{
+				float: right !important;
+				padding-right:  0 !important;
+				margin: 85px auto  0!important;
+			}
+		}
+		#fijo{
+			top: 120px !important;
+			#formContainer{
+				#hb247button{
+					padding: 10px 60px !important;
+				}
+			}
+		}
+	}
+	#header{
+		#topMenu{
+				float: right !important;
+				padding-right:  0 !important;
+				margin: 46px auto  0!important;
+			}
+		#primeraLinea{
+			margin-bottom: 310px !important;
+		}
+	}
+	#header2{
+		#logo{
+			margin: 15px 24px 0 !important;
+		}
+		#topMenu{
+			 margin: 3em 1em !important;
+		}
+	}
+	#contenidoCentral{
+		.lineaTres{
+			#banner2{
+				.effects{
+					.img{
+						width: 103% !important;
+					}
+				}
+			}
+			.col-md-8{
+				.gallery__img{
+					width: 335px !important;
+					height: 235px !important;
+				}
+				.gallery__controls{
+					bottom: 83px !important;
+					width: 99.5% !important;
+				}
+				.gallery-wrap{
+					width: 99.8% !important;
+				}
+			}
+			#sliderContainer{
+				padding-left: 0 !important;
+			}
+		}
+		#bannersFinales{
+			.col-md-6{
+				.col-md-5{
+					right: -5px !important;
+				}
+			}
+		}
+		.contenidoTop{
+			.hostel-description-container{
+				.hostel-description{
+					p{
+						line-height: 15px !important;
+					}
+				}
+			}
+		}
+	}
+	.container-fluid{
+		#formContacto{
+			.dos{
+				.box{
+					.column{
+						padding: 8px;
+    					width: 100%;
+						.fila{
+							float: left !important;
+							width: 33.33% !important;
+						}
+					}
+				}
+			}
+			.hostels{
+				p{
+					white-space: normal !important;
+				}
+			}
+		}
+		.contenedorInterno{
+			width: 96vw !important;
+		}
+		#hostelList{
+				.row-fluid{
+					.hostel{
+						.hostelHeader{
+							height: 200px;
+							.trip{
+								margin: 40px 10px !important;
+							}
+							.iconos{
+								img:nth-child(7){
+									display: none;
+								}
+							}
+						}
+						.detalles{
+							.datos{
+								h1{
+									a{
+										font-size: 18px;
+									}
+								}
+							}
+							.reservas{
+								img{
+									position: relative;
+									right: 11px;
+									padding: 2px 6px 2px 7px !important;
+								}
+								.bedsprice{
+									position: relative;								}
+							}
+						}
+						.bannerFinal{
+							width: 96% !important;
+						}
+					}
+					.ponloEnLinea{
+						> div{
+							display: none;
+						}
+					}
+				}
+			}
+		#videoPie{
+			#tituloVideo{
+				bottom: 23%;
+			}
+		}
+		#bannersFinales{
+			> .col-md-6{
+				> .col-md-5{
+					right: -6px !important;
+				}
+			}
+		}
+	}
+	#contenidoCentral{
+		#topHostelsMenu{
+			li#Rio{
+				margin-left: 2% !important;
+			}
+			li#Rooms{
+				margin-left: 2% !important;
+			}
+			li#House{
+				margin-left: 2% !important;
+			}
+			li#Ipanema{
+				margin-left: 3% !important;
+			}
+			li#Copa{
+				margin-left: 2% !important;
+			}
+		}
+		.contenidoMedio{
+			#lineaPunteada{
+				.gralInfoContainer{
+					padding-left: 0 !important;
+					position: relative;
+					right: 3px;
+					.row{
+						.col-md-2{
+							img{
+								position: relative;
+								right: 5px;
+							}
+						}
+					}
+				}
+			}
+			> .col-md-4{
+				.row{
+					.col-md-10{
+						position: relative;
+						left: 5px;
+					}
+				}
+			}
+		}
+	}
+	#headervideo{
+		#videoBanner2{
+			display: none;
+		}	
+	}
+	#promosList{
+		width: 100% !important;
+		overflow: hidden;
+		.banner{
+			margin-left: 18px;
+			padding: 20px 0 !important;
+		}
+		.bannerPromoWrapper{
+			width: 100% !important;
+			height: auto !important;
+			margin: 0 0 10px !important;
+		}
+		.row-fluid{
+			margin-left: 4%;
+			.banner{
+				width:28%;
+				margin: 20px 15px 0 2px !important;
+    			padding: 0 !important;
+				#bannerPrincipalPromosWrapper{
+					width: 106% !important;
+				}
+			}
+			.promo{
+				width: 32%;
+				p{
+					font-size: 10px !important;
+				}
+				h1{
+					font-size: 20px !important;
+					margin-top: 7px !important;
+				}
+			}
+		}
+		.row-fluid:nth-child(1){
+			.tres{
+					position: relative;
+					left: 17px;
+			}
+		}
+	}
+	#menusInferiores{
+		#menuContainer{
+			#txtHome{
+				    font-size: 12px !important;
+				    line-height: 15px !important;
+				}
+		}
+	}
+	.hostelHeader-privado{
+		height: 100px !important;
+	}
+}
+
+/*****
+IPADS - Portrait
+*****/
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait) { 
+	#header{
+		height: 350px !important;
+	}
+	#headervideo{
+		height: 550px !important;
+		#videoBanner2{
+			display: none;
+		}
+		padding: 0 !important;
+			#topMenu{
+				li{
+					padding: 0 5px !important;
+					border-right: 0 !important;
+				}
+			}
+	}	
+	#header2{
+		padding: 0 !important;
+		.contenedorInterno{
+			margin: 0 auto -35px !important;
+		}
+		nav{
+			padding: 0 !important;
+			#topMenu{
+				li{
+					padding: 0 5px !important;
+				}
+			}
+		}
+	}
+	nav{
+		clear: none;
+		#topMenu{
+			.list-inline{
+				left: 0 !important;
+				text-align: center;
+			}
+			ul{
+				li{
+					display: inline !important;
+					margin: 0 auto;
+				}
+			}
+		}
+	}
+	#formScrolleableContainer{
+			width: 100% !important;
+			top: 0 !important;
+    		margin: 0 auto !important;
+    		.formScrolleable{
+    			width: 53em !important;
+    		}
+    		hr{
+    			clear: both;
+    		}
+    		#hb247button-scroll{
+    			left: 3px !important;
+    		}
+			#destinosWrapper{
+				width: 180px !important;
+				float: left !important;
+				background: rgba(0, 0, 0, 0) url("../img/selectDestinosMini.png") no-repeat scroll 0 0 !important;
+				top: 10px !important;
+				overflow: hidden !important;
+			}
+			#destinos{
+				width: 196px !important;
+				float: left !important;
+			}
+			#llegada{
+				 float: left !important;
+			     width: 110px !important;
+			     margin-right: 10px !important;
+			     margin-left: 25px !important;
+			     padding-left: 10px !important;
+			}
+			#nochesWrapper{
+				width: 100px !important;
+				float: left !important;
+				margin-left: -2px !important;			}
+			#noches-scroll{
+				width: 150px !important;
+				float: left !important;
+			}	
+			.text-align-center{
+				top: 0 !important;
+			}
+		}/* /#formScrolleableContainer */
+	div#fijo{
+		width: auto !important;
+		top: 110px !important;
+		#formReservas{
+			width: 700px !important;
+			margin: auto !important;
+			height: 100px !important;
+			top: 75px !important;
+    		position: relative;
+		}
+		#formContainer{
+			width: 680px !important;
+			top: -20px !important;
+    		margin: 0 auto !important;
+    		hr{
+    			clear: both;
+    		}
+    		.text-align-center{
+    			background-color: transparent !important;
+    		}
+    		#hb247button{
+    			left: 8px !important;
+    			top: 13px !important;
+    		}
+			#destinosWrapper{
+				width: 180px !important;
+				float: left !important;
+				background: rgba(0, 0, 0, 0) url("../img/selectDestinosMini.png") no-repeat scroll 0 0 !important;
+				top: 10px !important;
+				overflow: hidden !important;
+			}
+			#destinos{
+				width: 196px !important;
+				float: left !important;
+			}
+			#llegada{
+				 float: left !important;
+			     width: 120px !important;
+			     margin-right: 10px !important;
+			     margin-left: 25px !important;
+			     padding-left: 10px !important;
+			}		
+			#partida{
+				width: 120px !important;
+				position: relative !important;
+				top: 10px !important;
+			}
+			#nochesWrapper{
+				width: 100px !important;
+				float: left !important;
+				margin-left: 17px !important;
+				margin-top: 10px !important;			}
+			#noches{
+				width: 150px !important;
+				float: left !important;
+			}
+			.text-align-center{
+				top: 0 !important;
+			}
+		}/* /#formContainer */
+	}
+	.container-fluid{
+		#formContacto{
+			.tres{
+				padding-left: 0 !important;
+			}
+			.dos{
+				padding-left: 0 !important;
+			}
+			.hostel{
+				left: 11px !important;
+			}
+			.uno{
+				padding-right: 4px !important;
+			}
+			.reserva{
+				.uno{
+					.punta{
+						left: 46% !important;
+						top: -14% !important;
+					}
+					.box{
+						h4{
+							display: inline !important;
+						}
+						img{
+							display: inline !important;
+							float: none !important;
+							margin-right: 10px !important;
+							margin-top: 2px !important;
+						}
+					}
+				}
+				.dos{
+					.box{
+						.column{
+							display: block;
+							clear: both;
+							.fila{
+								float: left !important;
+								width: 33.33% !important;
+							}
+						}
+					}
+				}
+			}
+			.row{
+				margin: 0 !important;
+				.box-gris{
+					margin: 30px auto !important;
+				    padding: 20px 30px 20px 17px !important;
+				    width: 80%;
+					.wpcf7{
+						.wpcf7-form{
+							input, select{
+								width: 100% !important;
+								height: 35px !important;
+								padding: 7px !important;
+								margin: 5px 10px !important;
+								float: left !important;
+								clear: both !important;
+							}
+							input[name="surname"]{
+								position: relative !important;
+								top: 8px !important;
+							}
+							input[name="name"],
+							input[name="pais"],
+							input[name="checkin"]{
+								width: 101% !important;
+							}
+							input[type="submit"],
+							textarea[name="mensaje"]{
+								width: 99% !important;
+							}
+							textarea[name="mensaje"]{
+								margin-left: 10px !important;
+							}
+						}
+					}
+				}
+			}
+			.hostels{
+				.col-md-4{
+					width: 33.33% !important;
+					float: left !important;
+					padding: 0 !important;
+					p{
+						white-space: normal !important;
+						margin: 0 0 10px !important;
+						padding: 5px !important;
+					}
+				}
+			}
+		}
+		#contenidoCentral{
+			.tituloTop{
+				margin-bottom: 23px !important;
+			}
+			.bannersSuperiores{
+				width: 49% !important
+			}
+			.bannersSecundarios{
+				width: 31% !important
+			}
+			#filaBannersSecundarios{
+				.bannersSecundarios:nth-child(2){
+					margin-left: 4px !important;
+				}
+				.bannersSecundarios:last-child{
+					margin-left: 26px !important;
+				}
+			}
+			h1.topHostelsTitle, 
+			#topHostelsMenu{
+				display: none !important;
+			}
+			.contenidoTop{
+				.hostel-description-container{
+					height: auto !important;
+					width: 92vw;
+					.hostel-description{
+						min-height: auto !important;
+						padding: 10px 10px 1px !important;
+					}
+				}
+				#mapContainer{
+					width: 96.7%;
+					margin-top: 15px;
+				}
+			}
+			.contenidoMedio{
+				h1{
+					margin-top: 20px;
+				}
+				> div{
+					width: 50% !important;
+					float: left;
+					> div{
+						float: left !important;
+						clear: both;
+					}
+					.col-md-2, .col-md-10{
+						display: inline !important;
+					}
+					.col-md-2{
+						width: 10% !important;
+					}
+					.col-md-10{
+						width: 80% !important;
+					}
+				}
+				.bannerReviewsIpad{
+	    			display: block !important;
+	    			.img{
+	    				width: 100% !important;
+	    				margin: 75px 0 0 !important;
+	    			}
+	    		}
+				#lineaPunteada{
+					.gralInfoContainer{
+						padding-left: 50px;
+						margin-bottom: 36px;
+						 .noShowiPad{
+						 	display: none;
+						 }
+						.row{
+							.borderRight{
+								border-right: 0 !important;
+								span{
+										margin-right: 5px;
+									}
+								}
+							.col-md-8{
+								span{
+										margin-right: 5px;
+									}
+							}
+							.col-md-2{
+								img{
+									margin-left: -6px !important;
+								}
+							}
+						}
+					}
+					.col-md-6:nth-child(2){
+						display: block !important;
+						clear: both !important;	
+						.col-md-12{
+							position: relative;
+							bottom: 310px !important;
+						}
+						.img{
+							margin: 28px 0 0;
+						}
+					}
+					a.bookabed{
+						display: inline-block !important;
+						min-width: 100%;
+						margin-top: -6px;
+					}
+					.img{
+						img.sideBanner{
+							display: inline-block !important;
+						}
+					}
+				}
+				.botaPT, .botaEN, .botaFR, .botaDE,
+				.copaPT, .copaEN,
+				.rioFR, .rioDE,
+				.roomsEN,
+				.lemePT, .lemeEN,
+				.ipaPT, .ipaEN, .ipaFR, .ipaDE{
+						margin-top: 17px !important;
+				}
+
+			}
+			.lineaTres{
+				#banner2{
+					display: none !important;
+				}
+				#sliderContainer{
+					padding-left: 0 !important;
+					.gallery-wrap{
+						position: relative;
+					    right: 11px;
+					    width: 96%;
+					    .gallery__controls{
+					    	width: 99% !important;
+					    }
+					}
+				}
+				.col-md-8{
+					.gallery__img{
+						width: 348px;
+						height: 244px;
+					}
+				}
+			}
+		}
+		#videoPie{
+			#tituloVideo{
+				bottom: 18% !important;
+				h2{
+					margin-bottom: 10px !important;
+					margin-top: 0 !important;
+				}
+			}
+		}
+		#menusInferiores{
+			padding-left: 0 !important;
+			#menuContainer{
+				padding: 30px 15px 30px 25px !important;
+				ul{
+					.last{margin-top: 10px;}
+					li{
+						a{
+							font-size: 18px !important;
+						}
+					}
+				}
+				#txtHome,
+				#menuPie1, 
+				#menuPie2, 
+				#menuPie3{
+					width: 24% !important;
+					float: left !important;
+				}
+				#txtHome{
+				    font-size: 11px;
+				    line-height: 1.07;
+				}
+			}
+		}
+		#bannersFinales{
+		    position: relative !important;
+		    right: 5px !important;
+			> div:nth-child(1){
+				width: 30% !important;
+				float: left !important;
+			}
+			> div:nth-child(2){
+				width: 60% !important;
+				float: right !important;
+				> div{
+					width: 49% !important;
+					float: right !important;
+				}
+				> div:nth-child(1){
+					display: none;
+				}
+				> div:nth-child(2){
+					position: relative;
+					left: -17px;
+					width: 340px !important;		
+				}
+			}
+			.TA_selfserveprop{
+				div#CDSWIDSSP[style]{
+					border-right: 1px solid #ccc;
+				    padding-right: 2px !important;
+				    width: 342px !important;
+				}
+			}
+		}
+		#grupos{
+			.content{
+				> div:nth-child(4){
+					width: 80%;
+					margin: 0 auto;
+				}
+				> div{
+					margin-bottom: 50px;
+				}
+				.first{
+					ul{
+						margin-bottom: 30px;
+					}
+				}
+				.grupos{
+					.banner{
+						margin-left: 20% !important;
+					    margin-top: 50px !important;
+					    width: 55% !important;
+					}
+				}
+				
+				.alojamiento{
+					p{
+						font-size: 13px !important;
+					}
+				}
+			}
+			.alojamiento{
+				padding: 20px 30px !important; 
+				.banner{
+					display: none;
+				}
+				img{
+					width: 20%;
+				}
+			}
+		}
+	}
+	.container-fluid{
+		#hostelList{
+			margin: 30px auto !important;
+			max-width: none !important;
+			.ponloEnLinea{
+				display: none !important;
+			}
+			.row-fluid{
+				.hostel{
+					float: left;
+				    padding: 0 10px !important;
+				    width: 50% !important;
+				    .detalles{
+				    	.reservas{
+				    		.bedsprice{
+				    			float: left;
+				    			margin: 25px 0 0 10px;
+				    			bottom: 32 !important;
+				    		}
+				    		img{
+				    			float: left;
+				    			margin: 0;
+				    			padding: 0 10px 0 0;
+				    		}
+				    		.search{
+				    			margin: 0 0 30px;
+				    		}
+				    	}
+				    }
+				}
+		  }
+		}
+		#bannersFinales{
+			margin: 20px 0;
+			> div:nth-child(1){
+				margin: 0 12px;
+			}
+			.effects{
+				.img{
+					right: 2px;
+				}
+			}
+		}
+	}
+	#footer{
+		display: table;
+		#google_translate_element{
+			a{
+				color: #333 !important;
+			}
+		}
+		ul{
+			margin: 0 auto;
+		}
+		.row{
+			margin-bottom: 0 !important;
+		}
+
+	}
+	#promosList{
+		.row-fluid{
+			position: relative;
+			left: 8px;
+		}
+		.banner,.promo{
+			width: 49%;
+			float: left;
+		}
+		.banner{
+			width: 46.5% !important;
+			#bannerPrincipalPromosWrapper{
+				position: relative;
+				left: 30px;
+			}
+		}
+		.promo{
+			margin: 0 !important;
+			padding: 20px 9px !important;
+		}
+		#menu1{
+			#hostelList{
+				margin: 0 auto;
+			}
+		}
+	}
+
+
+	body{
+		div#lz_overlay_chat{
+			left: 468px !important;
+		}
+	} 
+
+	#header{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		.contenedorInterno{
+			#primeraLinea{
+				#logo{
+					position: relative;
+					bottom: 40px;
+					img{
+						margin: 0 auto !important;
+					}
+				}
+				nav{
+					padding: 0 !important;
+					#topMenu{
+						margin: -3em auto -5em !important;
+					}
+				}
+			}
+		}
+		#fijo{
+				margin-top: -30px !important;
+		}
+	}
+	.container-fluid{
+		> .contenedorInterno{
+			margin-left: 2.2% !important;
+			width: 95vw !important;
+			.tituloTop{
+				div:nth-child(1){
+					width: 65% !important;
+					float: left !important;
+					white-space: nowrap;
+				}
+				div:nth-child(2){
+					 float: right !important;
+				    padding-right: 29px !important;
+				    width: 35% !important;
+				}
+			}
+		}
+	}
+	#hostelList{
+		margin-top: 30px;;
+	}
+}
+
+
+
+
+/*****
+IPADS - Portrait + landscpae
+*****/
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px)  { 
+	#headervideo{
+		background-position: 10% 0 !important;
+	}
+	#rrss{
+		display: none;
+	}	
+	.row-fluid{
+		border: 0 !important;
+		.promo{
+			p{
+				font-size: 12px !important;
+			}
+		}
+	}
+	#grupos{
+		.content{
+			blockquote{
+				p, footer{
+					font-size: 15px !important;
+					line-height: 25px !important;
+				}
+				p::after, p::before{
+					font-size: 15px !important;
+				}
+			}
+		}
+	}
+	#hostelList{
+		.row-fluid{
+			.hostel{
+				.segundaLinea{
+					.img-privado-wrapper{
+						width: 49% !important;
+					}
+				}
+			}
+		}
+	}
+}

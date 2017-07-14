@@ -38,7 +38,7 @@ $form = get_field('formulario',$post->ID, false);
                     <h2><?php echo get_field('numeroprincipal'); ?></h2>
                     <h3><?php echo get_field('datasemanal'); ?></h3>
                     <img class="whatsapp" src="<?php echo get_template_directory_uri(); ?>/images/whatsapp.png">
-                    <h4>Whatsapp <?php echo get_field('whatsapp'); ?> or +55 21 984792746</h4>
+                    <h4>Whatsapp <?php echo get_field('whatsapp'); ?></h4>
                 </div>
             </div>
             <div class="col-md-8 dos">

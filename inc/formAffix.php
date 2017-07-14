@@ -44,7 +44,7 @@
 	    </div><!-- /.formScrolleable -->
 	 </div><!-- /#formContainer -->
     <!-- / Formulario de reservas -->
-
+	
     <script>
 	$('#formScrolleableContainer').hide();
     $(function() {

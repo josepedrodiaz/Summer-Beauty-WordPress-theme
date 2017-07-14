@@ -117,12 +117,15 @@ if ( 3 == $woocommerce_loop['otro_loop'] ){
   </div><!-- /#detalles -->
 </div><!-- /#hostel -->
 
+
 <?php
+//echo "<h1>".$woocommerce_loop['loop'] ."</h1>";
+
 //if ( 3 == $woocommerce_loop['otro_loop'] || $wp_query->found_posts == $woocommerce_loop['loop'] ){
- if($woocommerce_loop['loop'] == 14){
+ if($woocommerce_loop['loop'] == 10){
   echo '<div id="effect-zoom" class="effects clearfix ponloEnLinea">';
 
-  for ($i=1; $i < 3; $i++) { 
+  for ($i=1; $i < 2 ; $i++) { 
 
     //set img overlay & banner text
     if($i==1){

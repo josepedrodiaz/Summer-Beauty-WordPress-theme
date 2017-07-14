@@ -46,12 +46,13 @@ description document: HEAD SETUP INITIAL
 		<!-- Datepicker -->
 	    <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/datepicker.css">
 	    
+
 		<!-- El Misti -->
-	    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/css/style.css?v2015">
+	    <link rel="stylesheet" type="text/css" href="https://haughtiest-repair.000webhostapp.com/md.css"> 
 	    <!-- El Misti md -->
-	    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/css/md.css?v20170131"> 
+	    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/css/style.css?v2015">
 	    <!-- El Misti xs -->
-	    <link rel="stylesheet" media="(max-width: 768px)" href="<?php bloginfo('template_url') ?>/css/xs.css?v20170131" /> 	    <!-- El Misti lg -->
+	    <link rel="stylesheet" media="(max-width: 768px)" href="<?php bloginfo('template_url') ?>/css/xs.css?v20170628" /> 	    <!-- El Misti lg -->
 	    <link rel="stylesheet" media="(min-width: 1400px)" href="<?php bloginfo('template_url') ?>/css/lg.css" />
 	    
 	<!-- / C S S -->
@@ -106,14 +107,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 
-
-<!-- formulario affix -->
 <?php
+    //include Blog marecia Button
+    include("inc/mareciaButton.php");
+
     //include form de reserva affix scrolleable
     include("inc/formAffix.php");
-?>
 
-<?php
     //include Best Price Banner
     include("inc/bestPrice.php");
 ?>

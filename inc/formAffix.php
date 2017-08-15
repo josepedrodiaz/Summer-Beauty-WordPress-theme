@@ -8,12 +8,12 @@
 		      <select id="destinos-scroll" name="destino">
 		        <option selected="" disabled="" value=""> Hostels </option> 
 					<optgroup label="Rio de Janeiro"> 
-						<option value="copa">El Misti Hostel Copacabana</option> 
+						<!--<option value="copa">El Misti Hostel Copacabana</option>--> 
 						<option value="ipa">El Misti Ipanema</option> 
 						<option value="rooms">El Misti Rooms Copacabana</option> 
 						<option value="house">El Misti House Copacabana</option> 
 						<option value="rio">El Misti Rio Copacabana</option> 
-						<option value="bota">El Misti Botafogo</option> 
+						<!--<option value="bota">El Misti Botafogo</option>--> 
 						<option value="suites">El Misti Suites Copacabana</option> 
 					</optgroup>  
 					<optgroup label="Ilha Grande"> 
@@ -44,7 +44,6 @@
 	    </div><!-- /.formScrolleable -->
 	 </div><!-- /#formContainer -->
     <!-- / Formulario de reservas -->
-	
     <script>
 	$('#formScrolleableContainer').hide();
     $(function() {

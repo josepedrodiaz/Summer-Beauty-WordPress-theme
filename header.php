@@ -48,11 +48,11 @@ description document: HEAD SETUP INITIAL
 	    
 
 		<!-- El Misti -->
-	    <link rel="stylesheet" type="text/css" href="https://haughtiest-repair.000webhostapp.com/md.css"> 
-	    <!-- El Misti md -->
 	    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/css/style.css?v2015">
+	    <!-- El Misti md -->
+	    <link rel="stylesheet" type="text/css" href="https://haughtiest-repair.000webhostapp.com/md.css"> 
 	    <!-- El Misti xs -->
-	    <link rel="stylesheet" media="(max-width: 768px)" href="<?php bloginfo('template_url') ?>/css/xs.css?v20170628" /> 	    <!-- El Misti lg -->
+	    <link rel="stylesheet" media="(max-width: 768px)" href="<?php bloginfo('template_url') ?>/css/xs.css?v20170628" /> <!-- El Misti lg -->
 	    <link rel="stylesheet" media="(min-width: 1400px)" href="<?php bloginfo('template_url') ?>/css/lg.css" />
 	    
 	<!-- / C S S -->
